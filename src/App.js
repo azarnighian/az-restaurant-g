@@ -1,9 +1,11 @@
-import Landing from './components/Landing'
+import HomeLanding from './components/HomeLanding'
+import HomeAbout from './components/HomeAbout'
 
 function App() {
   return (
     <>
-      <Landing />
+      <HomeLanding />
+      <HomeAbout />
     </>
   );
 }

@@ -8,13 +8,13 @@
   font-family: 'Poppins', sans-serif;
 } */
 
-                              /* Landing.js */
-.LandingContainer {
+                              /* HomeLanding.js */
+.landingContainer {
   position: relative;
   text-align: center;
 }
 
-.LandingText {  
+.landingText {  
   position: absolute;
   top: 50%;
   left: 50%;
@@ -22,7 +22,7 @@
   /* https://www.w3schools.com/howto/howto_css_image_text.asp */
 }
  
-.LandingImage {
+.landingImage {
   width: 100%;
   min-height: 100vh;
   
@@ -34,11 +34,11 @@
 }
 
 @media only screen and (min-width: 768px) {
-  .LandingContainer {
+  .landingContainer {
     display: flex;    
   }
 
-  .LandingText {
+  .landingText {
     width: 50%;
     min-height: 100vh;
     position: static;
@@ -48,7 +48,28 @@
     justify-content: center;   
   }
 
-  .LandingImage {
+  .landingImage {
     width: 50%;
   }
+}
+
+                            /* HomeAbout.js */
+.container {
+  padding: 4rem;
+  background-color: rgb(241, 240, 240);
+  display: flex;
+  flex-direction: column; 
+  align-items: center; 
+}
+
+.container p {
+  min-width: 35ch;
+  max-width: 75ch;
+                      /* fix this if incorrect ^ */
+  margin: 2rem 0;
+  line-height: 1.6;
+}
+
+button {
+  padding: 1em;
 }
