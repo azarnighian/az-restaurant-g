@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Source+Serif+Pro:wght@200;300;400;600;700;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700;900&display=swap');
 
 * {
   box-sizing: border-box;
@@ -6,59 +6,190 @@
   padding: 0;
 }
 
+/* Variables */
+:root {
+  --NavBarHeight: 4rem;
+}
+
 body {
-  font-family: 'Source Serif Pro', serif;
+  font-family: 'Lato', sans-serif;
+}
+                              /* NavBar.js */
+nav {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  min-height: var(--NavBarHeight);
+  background-color: white;
+  position: fixed;
+  top: 0;
+  z-index: 100;
+  width: 100%;
+  box-shadow: 0 1px 4px 0 rgba(0,0,0,.1);
+}
+
+                          /* To change on scroll: */
+.nav-scrolled {
+  box-shadow: 0 1px 4px 0 rgba(0,0,0,.1);;
+  background-color: white;
+}
+.nav-scrolled .logo {
+  color: black;
+}
+.nav-scrolled .nav-links a {
+  color: grey;
+}
+.nav-scrolled .nav-links a:hover {
+  color: var(--Orange);
+}
+                                /* until here */
+
+.nav-links {
+  display: flex;
+  position: absolute;
+  left: 0px;
+  height: calc( var(--vh100) - (var(--NavBarHeight)) );
+  top: var(--NavBarHeight);
+  background-color: white;      
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  width: 80%;  
+  transform: translateX(-100%);
+  transition: transform 0.6s;
+
+  z-index: 10;
+}
+.nav-links li {
+  list-style: none;
+  opacity: 0;
+}
+.nav-links a {
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 1rem;
+  color: grey;
+  transition: color 0.2s;
+}
+.nav-links a:hover {
+  color: var(--Orange);
+}
+
+.burger {
+  display: block;
+  position: absolute;
+  left: 15px;    
+}
+.burger div {
+  width: 25px;
+  height: 2px;
+  background-color: grey;
+  margin: 5px;  
+  transition: all 0.3s ease;
+}
+
+.nav-active {
+  transform: translateX(0%);
+}
+.nav-active-darken-screen {
+  display: none;
+  z-index: 99;
+  background-color: rgba(0, 0, 0, 0.5);
+  height: 100%;
+  width: 100%;  
+  position: fixed;
+}
+
+@keyframes navLinkFade {
+  from {
+    opacity: 0;
+    transform: translateX(-50px);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0px);
+  }
+}
+
+.toggle .line1 {
+  transform: rotate(-45deg) translate(-5px,5px);
+}
+.toggle .line2 {
+  opacity: 0;
+}
+.toggle .line3  {
+  transform: rotate(45deg) translate(-5px,-5px);
+}
+
+@media screen and (min-width: 768px){
+  nav {
+    background-color: transparent;
+  }
+  .logo {
+    width: 40%;
+    color: white;
+  }
+  
+  .nav-links {    
+    width: 40%;
+        
+    position: initial;
+    left: initial;
+    height: initial;
+    top: initial;
+    background-color: initial;
+    flex-direction: initial;
+    align-items: initial;
+    transform: initial;
+    transition: initial;
+    z-index: initial;
+  }
+  .nav-links li {
+    opacity: initial;
+  }  
+  .nav-links a {
+    color: white;
+  }
+  .burger {
+    display: none;
+  }
+}
+
+@media screen and (min-width: 1024px){
+  .nav-links {
+    width: 30%;
+  }
 }
 
                               /* HomeLanding.js */
 .landingContainer {
-  position: relative;
-  text-align: center;
-}
-
-.landingText {  
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  /* https://www.w3schools.com/howto/howto_css_image_text.asp */
-}
- 
-.landingImage {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
   width: 100%;
   min-height: 100vh;
-  
-  background-image: linear-gradient(rgba(0,0,0,0.2),rgba(0,0,0,0.2)),
-                    url("https://images.unsplash.com/photo-1580802841960-bb47baa91eac?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=717&q=80");
+  background-image: linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)),
+                    url("https://images.pexels.com/photos/2079438/pexels-photo-2079438.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+  
+  color: white;
+  text-align: center;  
 }
-
-@media only screen and (min-width: 768px) {
-  .landingContainer {
-    display: flex;    
-  }
-
-  .landingText {
-    width: 50%;
-    min-height: 100vh;
-    position: static;
-    transform: none; 
-    display: flex;
-    flex-direction: column;
-    justify-content: center;   
-  }
-
-  .landingImage {
-    width: 50%;
-  }
+.landingContainer h1 {
+  font-size: 3rem;
+  font-weight: 900;
+}
+.landingContainer h2 {
+  font-weight: 400;
 }
 
                             /* HomeAbout.js */
 .container {
   padding: 4rem;
-  background-color: rgb(241, 240, 240);
+  background-color: rgb(231, 231, 231);
   display: flex;
   flex-direction: column; 
   align-items: center; 
