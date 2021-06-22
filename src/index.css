@@ -1,5 +1,5 @@
-@import url('https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700;900&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Libre+Franklin:wght@100;200;300;400;500;600;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap');
 
 * {
   box-sizing: border-box;
@@ -13,8 +13,11 @@
 }
 
 body {
-  font-family: 'Lato', sans-serif;
-}                              
+  font-family: 'Libre Franklin', sans-serif;
+}   
+h1 {
+  font-family: 'Poppins', sans-serif;
+}                           
 
                               /* HomeLanding.js */
 .landingContainer {
@@ -22,28 +25,32 @@ body {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  width: 100%;
-  min-height: var(--vh100);
+  
   background-image: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)),
                     url("https://images.pexels.com/photos/2079438/pexels-photo-2079438.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+  /* parallax scrolling effect: */
+  background-attachment: fixed;
   
+  width: 100%;
+  min-height: var(--vh100);
+  padding: 1rem;
   color: white;
-  text-align: center;  
+  text-align: center; 
+  overflow-wrap: anywhere; 
 }
 .landingContainer h1 {
-  font-size: 4rem;
-  font-weight: 900;
-  margin: 1em 0 .4em;
-  max-width: 85%;
-  font-family: 'Comfortaa', cursive;
+  font-size: 3rem;
+  font-weight: 600;
+  margin: 1em 0 .5em;
+  max-width: 85%;  
 }
 .landingContainer h2 {
-  font-size: 1.3rem;
+  font-size: 1.1rem;
   font-weight: 400;
-  max-width: 40ch;
+  max-width: 45ch;
   line-height: 1.6;
 }
 
@@ -57,14 +64,31 @@ body {
 }
 
 .container p {
-  min-width: 35ch;
+  width: 100%;
   max-width: 75ch;
-                      /* fix this if incorrect ^ */
-                      /* https://www.w3schools.com/css/css_overflow.asp */
   margin: 2em 0;
   line-height: 1.6;
+  -webkit-hyphens: auto;
+  -ms-hyphens: auto;
+  hyphens: auto;
 }
 
 button {
   padding: 1em;
+}
+
+                              /* ___.js */
+
+
+                              /* Font-size */
+@media screen and (min-width: 1400px) {
+  html {
+    font-size: 18px; 
+  }
+}
+
+@media screen and (min-width: 2000px) {    
+  html {
+    font-size: 22px;
+  }
 }
