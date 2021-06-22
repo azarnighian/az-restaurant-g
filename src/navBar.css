@@ -23,7 +23,7 @@ nav {
   color: grey;
 }
 .nav-scrolled .nav-links a:hover {
-  color: var(--Orange);
+  color: orange;
 }
                                 /* until here */
 
@@ -55,7 +55,7 @@ nav {
   transition: color 0.2s;
 }
 .nav-links a:hover {
-  color: var(--Orange);
+  color: orange;
 }
 
 .burger {
@@ -107,6 +107,7 @@ nav {
 @media screen and (min-width: 768px){
   nav {
     background-color: transparent;
+    box-shadow: none;
   }
   .logo {
     width: 40%;

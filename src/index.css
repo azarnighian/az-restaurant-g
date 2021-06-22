@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@700&display=swap');
 
 * {
   box-sizing: border-box;
@@ -22,8 +23,8 @@ body {
   justify-content: center;
   align-items: center;
   width: 100%;
-  min-height: 100vh;
-  background-image: linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)),
+  min-height: var(--vh100);
+  background-image: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)),
                     url("https://images.pexels.com/photos/2079438/pexels-photo-2079438.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940");
   background-position: center;
   background-repeat: no-repeat;
@@ -33,11 +34,17 @@ body {
   text-align: center;  
 }
 .landingContainer h1 {
-  font-size: 3rem;
+  font-size: 4rem;
   font-weight: 900;
+  margin: 1em 0 .4em;
+  max-width: 85%;
+  font-family: 'Comfortaa', cursive;
 }
 .landingContainer h2 {
+  font-size: 1.3rem;
   font-weight: 400;
+  max-width: 40ch;
+  line-height: 1.6;
 }
 
                             /* HomeAbout.js */
@@ -54,7 +61,7 @@ body {
   max-width: 75ch;
                       /* fix this if incorrect ^ */
                       /* https://www.w3schools.com/css/css_overflow.asp */
-  margin: 2rem 0;
+  margin: 2em 0;
   line-height: 1.6;
 }
 
