@@ -1,6 +1,19 @@
 document.addEventListener('DOMContentLoaded', function () {    
+    window.onscroll = function () { changeNavBar() };
+        // https://www.w3schools.com/jsref/prop_html_classname.asp
+        // https://www.w3schools.com/jsref/tryit.asp?filename=tryjsref_onscroll2
+    
     navSlide();
 });
+
+const changeNavBar = () => {
+    if (document.body.scrollTop > 50 || document.documentElement.scrollTop > 50) {
+        document.querySelector('nav').className += " nav-scrolled";
+    }
+    else {
+        document.querySelector('nav').className = "";
+    }
+}
 
 const navSlide = () => {
     const burger = document.querySelector('.burger');

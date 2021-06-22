@@ -12,19 +12,19 @@ const NavBar = () => {
 
         <ul className="nav-links">
             <li>
-                <a href="#">Home</a>
+                <a href="https://www.google.com/">Home</a>
             </li>                    
             <li>
-                <a href="#">About</a>
+                <a href="https://www.google.com/">About</a>
             </li>
             <li>
-                <a href="#">Menu</a>
+                <a href="https://www.google.com/">Menu</a>
             </li>
             <li>
-                <a href="#">Gallery</a>
+                <a href="https://www.google.com/">Gallery</a>
             </li>
             <li>
-                <a href="#">Contact</a>
+                <a href="https://www.google.com/">Contact</a>
             </li>
         </ul>            
     </nav>

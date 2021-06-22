@@ -1,16 +1,15 @@
-import DarkScreenDiv from './components/DarkScreenDiv'
 import NavBar from './components/NavBar'
+import DarkScreenDiv from './components/DarkScreenDiv'
 import HomeLanding from './components/HomeLanding'
 import HomeAbout from './components/HomeAbout'
 import './vhFix.js';
-import './changeNavBar.js';
-import './navSlide.js';
+import './navBarStuff.js';
 
 function App() {
   return (
     <>
-      <DarkScreenDiv />
       <NavBar />
+      <DarkScreenDiv />
       <HomeLanding />
       <HomeAbout />
     </>

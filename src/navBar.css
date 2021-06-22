@@ -1,0 +1,145 @@
+nav {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  min-height: var(--NavBarHeight);
+  background-color: white;
+  position: fixed;
+  top: 0;
+  z-index: 100;
+  width: 100%;
+  box-shadow: 0 1px 4px 0 rgba(0,0,0,.1);
+}
+
+                          /* To change on scroll: */
+.nav-scrolled {
+  box-shadow: 0 1px 4px 0 rgba(0,0,0,.1);;
+  background-color: white;
+}
+.nav-scrolled .logo {
+  color: black;
+}
+.nav-scrolled .nav-links a {
+  color: grey;
+}
+.nav-scrolled .nav-links a:hover {
+  color: var(--Orange);
+}
+                                /* until here */
+
+.nav-links {
+  display: flex;
+  position: absolute;
+  left: 0px;
+  height: calc( var(--vh100) - (var(--NavBarHeight)) );
+  top: var(--NavBarHeight);
+  background-color: white;      
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  width: 80%;  
+  transform: translateX(-100%);
+  transition: transform 0.6s;
+
+  z-index: 10;
+}
+.nav-links li {
+  list-style: none;
+  opacity: 0;
+}
+.nav-links a {
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 1rem;
+  color: grey;
+  transition: color 0.2s;
+}
+.nav-links a:hover {
+  color: var(--Orange);
+}
+
+.burger {
+  display: block;
+  position: absolute;
+  left: 15px;    
+}
+.burger div {
+  width: 25px;
+  height: 2px;
+  background-color: grey;
+  margin: 5px;  
+  transition: all 0.3s ease;
+}
+
+.nav-active {
+  transform: translateX(0%);
+}
+.nav-active-darken-screen {
+  display: none;
+  z-index: 99;
+  background-color: rgba(0, 0, 0, 0.5);
+  height: 100%;
+  width: 100%;  
+  position: fixed;
+}
+
+@keyframes navLinkFade {
+  from {
+    opacity: 0;
+    transform: translateX(-50px);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0px);
+  }
+}
+
+.toggle .line1 {
+  transform: rotate(-45deg) translate(-5px,5px);
+}
+.toggle .line2 {
+  opacity: 0;
+}
+.toggle .line3  {
+  transform: rotate(45deg) translate(-5px,-5px);
+}
+
+@media screen and (min-width: 768px){
+  nav {
+    background-color: transparent;
+  }
+  .logo {
+    width: 40%;
+    color: white;
+  }
+  
+  .nav-links {    
+    width: 40%;
+        
+    position: initial;
+    left: initial;
+    height: initial;
+    top: initial;
+    background-color: initial;
+    flex-direction: initial;
+    align-items: initial;
+    transform: initial;
+    transition: initial;
+    z-index: initial;
+  }
+  .nav-links li {
+    opacity: initial;
+  }  
+  .nav-links a {
+    color: white;
+  }
+  .burger {
+    display: none;
+  }
+}
+
+@media screen and (min-width: 1024px){
+  .nav-links {
+    width: 30%;
+  }
+}
