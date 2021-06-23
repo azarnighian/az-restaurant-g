@@ -55,17 +55,17 @@ h1 {
   line-height: 1.6;
 }
 
-                            /* HomeAbout.js */
+                              /* HomeAbout.js */
 .container {
   padding: 3em;
-  background-color: rgb(231, 231, 231);
+  background-color: rgb(240, 240, 240);
   display: flex;
   flex-direction: column; 
   align-items: center; 
   justify-content: center;
 }
 
-.container p {
+p {
   width: 100%;
   max-width: 65ch;
   margin: 2em 0;
@@ -79,7 +79,40 @@ button {
   padding: 1em;
 }
 
-                              /* ___.js */
+                              /* HomeMenu.js */
+.splitContainer{
+  display: flex;
+  flex-direction: column;  
+} 
+
+.splitContainer img {
+  object-fit: cover;
+  width: 100%;
+}
+
+.menuTextContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 3em;
+  text-align: center;
+}
+@media screen and (min-width: 500px){
+  .splitContainer img {
+    padding: 3em 3em 0 3em;
+  }
+}
+
+@media screen and (min-width: 700px) {
+  .splitContainer{
+    flex-direction: row;
+  }
+  .splitContainer img {
+    width: 55%;
+    padding: 3em 0 3em 3em;
+  }  
+}
 
 
                               /* Font-size */
