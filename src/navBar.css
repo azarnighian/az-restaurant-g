@@ -17,13 +17,13 @@ nav {
   background-color: white;
 }
 .nav-scrolled .logo {
-  color: black;
+  color: var(--Beige);
 }
 .nav-scrolled .nav-links a {
   color: grey;
 }
 .nav-scrolled .nav-links a:hover {
-  color: orange;
+  color: var(--Beige);
 }
                                 /* until here */
 

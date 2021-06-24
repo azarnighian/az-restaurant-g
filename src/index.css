@@ -10,6 +10,8 @@
 /* Variables */
 :root {
   --NavBarHeight: 4rem;
+  --Beige: #c8a97e;
+    /* Color from here: https://preview.colorlib.com/#feliciano */
 }
 
 body {
@@ -17,6 +19,7 @@ body {
 }   
 h1 {
   font-family: 'Poppins', sans-serif;
+  color: var(--Beige);
 }                           
 
                               /* HomeLanding.js */
@@ -46,6 +49,7 @@ h1 {
     /* https://css-tricks.com/linearly-scale-font-size-with-css-clamp-based-on-the-viewport/#for-those-who-dont-mind-that-edge-case */
   font-weight: 600;
   margin: 1em 0 .5em;
+  color: white;
 }
 .landingContainer h2 {
   font-size: clamp(1rem, 0.9892rem + 0.0693vw, 1.1rem);
@@ -73,10 +77,24 @@ p {
   -webkit-hyphens: auto;
   -ms-hyphens: auto;
   hyphens: auto;
+  text-align: center;
 }
 
 button {
-  padding: 1em;
+  padding: 1em 2em;
+  border: 2px solid var(--Beige);
+  border-radius: 100px;
+  cursor: pointer;
+  transition: all 0.2s; 
+  background-color: transparent;
+  color: var(--Beige);
+  font-size: .8rem;
+  font-weight: 700; 
+  letter-spacing: 1px;
+}
+button:hover {
+  background-color: var(--Beige);
+  color: white;
 }
 
                               /* HomeMenu.js */
@@ -100,7 +118,7 @@ button {
 }
 @media screen and (min-width: 500px){
   .splitContainer img {
-    padding: 3em 3em 0 3em;
+    max-height: 20rem;
   }
 }
 
@@ -111,6 +129,7 @@ button {
   .splitContainer img {
     width: 55%;
     padding: 3em 0 3em 3em;
+    max-height: initial;
   }  
 }
 
