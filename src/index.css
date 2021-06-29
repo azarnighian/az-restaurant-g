@@ -155,8 +155,7 @@ button:hover {
 }
 .homeGalleryContainer img {
   width: 100%;
-  /* height: 12rem; */
-  margin-bottom: 2em;
+  margin-bottom: 3em;
   object-fit: cover;
 }
 .beigeBackground button {
@@ -167,15 +166,16 @@ button:hover {
   color: var(--Beige);
 }
 
-/* @media screen and (min-width: 400px) { */
-  /* .homeGalleryContainer {
-    align-items: center;
-  } */
-  /* .homeGalleryContainer img {
-    width: 80%;
-    height: 15rem;
-  } */
-/* } */
+@media screen and (min-width: 500px) {
+  .beigeBackground {
+    padding: 5em;
+  }
+}
+@media screen and (min-width: 600px) {
+  .beigeBackground {
+    padding: 7em;
+  }
+}
 @media screen and (min-width: 768px) {
   .beigeBackground {
     padding: 4em 0;
@@ -189,9 +189,10 @@ button:hover {
     align-items: initial; 
   }
   .homeGalleryContainer img {
-    width: 40%;
+    width: 35%;
     margin-bottom: 0;
     margin-right: 2em;
+      /* match with padding left of homeGalleryContainer */
   }    
 }
 
