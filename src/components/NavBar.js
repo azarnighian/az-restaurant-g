@@ -1,3 +1,5 @@
+import { Link } from 'react-router-dom'
+
 const NavBar = () => {
   return (
     // Learned from here: https://www.youtube.com/watch?v=gXkqy0b4M5g&t=837s
@@ -12,10 +14,10 @@ const NavBar = () => {
 
         <ul className="nav-links">
             <li>
-                <a href="https://www.google.com/">Home</a>
+                <Link to="/">Home</Link>
             </li>                    
             <li>
-                <a href="https://www.google.com/">About</a>
+                <Link to="/about">About</Link>
             </li>
             <li>
                 <a href="https://www.google.com/">Menu</a>
