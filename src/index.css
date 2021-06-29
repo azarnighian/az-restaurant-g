@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Libre+Franklin:wght@300;400;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Libre+Franklin:wght@300;400;500;600&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap');
 
 * {
@@ -73,6 +73,8 @@ button, a {
   flex-direction: column; 
   align-items: center; 
   justify-content: center;
+  flex-wrap: wrap;
+  text-align: center;
 }
 
 p {
@@ -194,6 +196,18 @@ button:hover {
     margin-right: 2em;
       /* match with padding left of homeGalleryContainer */
   }    
+}
+
+                            /* HomeInfo.js */                           
+.infoContainer h1 {
+  margin-bottom: 1em;
+}
+.infoContainer p {
+  margin: 0;
+  line-height: 1.8;
+}  
+.infoContainer p:nth-of-type(3) {
+  margin-bottom: 2em;
 }
 
 

@@ -4,6 +4,7 @@ import HomeLanding from './components/HomeLanding'
 import HomeAbout from './components/HomeAbout'
 import HomeMenu from './components/HomeMenu'
 import HomeGallery from './components/HomeGallery'
+import HomeInfo from './components/HomeInfo'
 import './vhFix.js';
 import './navBarStuff.js';
 
@@ -16,6 +17,7 @@ function App() {
       <HomeAbout />
       <HomeMenu />
       <HomeGallery />
+      <HomeInfo />
     </>
   );
 }
