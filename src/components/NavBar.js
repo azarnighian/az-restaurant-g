@@ -20,13 +20,13 @@ const NavBar = () => {
                 <Link to="/about">About</Link>
             </li>
             <li>
-                <a href="https://www.google.com/">Menu</a>
+                <Link to="/menu">Menu</Link>
             </li>
             <li>
-                <a href="https://www.google.com/">Gallery</a>
+                <Link to="/gallery">Gallery</Link>
             </li>
             <li>
-                <a href="https://www.google.com/">Contact</a>
+                <Link to="/contact">Contact</Link>
             </li>
         </ul>            
     </nav>

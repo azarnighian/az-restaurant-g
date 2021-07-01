@@ -88,7 +88,7 @@ p {
   text-align: center;
 }
 
-button {
+.linkButton {
   padding: 1em 2em;
   border: 2px solid var(--Beige);
   border-radius: 100px;
@@ -99,8 +99,9 @@ button {
   font-size: .8rem;
   font-weight: 700; 
   letter-spacing: 1px;
+  text-decoration: none;
 }
-button:hover {
+.linkButton:hover {
   background-color: var(--Beige);
   color: white;
 }
@@ -160,10 +161,10 @@ button:hover {
   margin-bottom: 3em;
   object-fit: cover;
 }
-.beigeBackground button {
+.beigeBackground .linkButton {
   border-color: white;
 }
-.beigeBackground button:hover {
+.beigeBackground .linkButton:hover {
   background-color: white;
   color: var(--Beige);
 }
@@ -199,6 +200,9 @@ button:hover {
 }
 
                             /* HomeInfo.js */                           
+.infoContainer {
+  padding: 3em;
+}                            
 .infoContainer h1 {
   margin-bottom: 1em;
 }

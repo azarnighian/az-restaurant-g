@@ -6,6 +6,9 @@ import NavBar from './components/NavBar'
 import DarkScreenDiv from './components/DarkScreenDiv'
 import Home from './components/Home/Home'
 import About from './components/About'
+import Menu from './components/Menu'
+import Gallery from './components/Gallery'
+import Contact from './components/Contact'
 import './vhFix.js';
 import './navBarStuff.js';
 
@@ -18,6 +21,9 @@ function App() {
         <DarkScreenDiv />
         <Route path="/" exact component={Home} />
         <Route path="/about" exact component={About} />
+        <Route path="/menu" exact component={Menu} />
+        <Route path="/gallery" exact component={Gallery} />
+        <Route path="/contact" exact component={Contact} />
       </>
     </Router>
   );
