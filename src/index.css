@@ -18,9 +18,18 @@ body {
   font-family: 'Libre Franklin', sans-serif;
 }   
 h1 {
-  font-family: 'Poppins', sans-serif;
-  color: var(--Beige);
-}                           
+  font-family: 'Poppins', sans-serif;  
+}      
+p {
+  width: 100%;
+  max-width: 65ch;
+  margin: 2em 0;
+  line-height: 1.6;
+  -webkit-hyphens: auto;
+  -ms-hyphens: auto;
+  hyphens: auto;
+  text-align: center;
+}                     
 button, a {
   -webkit-tap-highlight-color: transparent;
     /* to remove blue highlight on mobile */
@@ -76,18 +85,9 @@ button, a {
   flex-wrap: wrap;
   text-align: center;
 }
-
-p {
-  width: 100%;
-  max-width: 65ch;
-  margin: 2em 0;
-  line-height: 1.6;
-  -webkit-hyphens: auto;
-  -ms-hyphens: auto;
-  hyphens: auto;
-  text-align: center;
+.container h1 {
+  color: var(--Beige);
 }
-
 .linkButton {
   padding: 1em 2em;
   border: 2px solid var(--Beige);
@@ -125,6 +125,10 @@ p {
   padding: 3em;
   text-align: center;
 }
+.menuTextContainer h1 {
+  color: var(--Beige);
+}
+
 @media screen and (min-width: 500px) {
   .splitContainer img {
     max-height: 20rem;
@@ -148,6 +152,9 @@ p {
   padding: 4em 2em; 
 }                            
 .beigeBackground * {
+  color: white;
+}
+.beigeBackground h1 {
   color: white;
 }
 .homeGalleryContainer {
@@ -200,22 +207,22 @@ p {
 }
 
                             /* HomeInfo.js */                           
-.infoContainer {
+.homeInfoContainer {
   padding: 3em;
 }                            
-.infoContainer h1 {
+.homeInfoContainer h1 {
   margin-bottom: 1em;
 }
-.infoContainer p {
+.homeInfoContainer p {
   margin: 0;
   line-height: 1.8;
 }  
-.infoContainer p:nth-of-type(3) {
+.homeInfoContainer p:nth-of-type(3) {
   margin-bottom: 2em;
 }
 
 
-                              /* About.js */
+                              /* Pages */
 .pagesContainer {
   display: flex;
   flex-direction: column;
@@ -224,20 +231,51 @@ p {
 }                              
 .headingContainer {  
   background-image: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)),
-                    url("https://images.pexels.com/photos/2079438/pexels-photo-2079438.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940");
+                    url("https://images.pexels.com/photos/6341164/pexels-photo-6341164.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
   /* parallax scrolling effect: */
   background-attachment: fixed;
   
-  width: 100%;
-  min-height: 50vh;
+  width: 90%;
+  min-height: 60vh;
   padding: 0;
-  margin-top: var(--NavBarHeight);
+  margin-top: calc(var(--NavBarHeight) * 2);
+  margin-bottom: 1em;
   color: white;
   text-align: center; 
-  overflow-wrap: anywhere; 
+  overflow-wrap: anywhere;
+  
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+.headingContainer h1 {
+  background-color: white;
+  border-radius: 7px 7px 0 0;
+  color: var(--Beige);
+  max-width: 90%; /* same as headingContainer width */
+  padding: .5em 2em;
+
+  position: absolute;
+  bottom: 0;
+}
+.pagesContainer p {
+  padding: 2em;
+  margin: 0;
+}
+
+.infoContainer {
+  padding: 2em;
+}                            
+.infoContainer p {
+  padding: 0;
+  line-height: 1.8;
+}  
+.infoContainer p:nth-of-type(3) {
+  margin-bottom: 2em;
 }
 
                               

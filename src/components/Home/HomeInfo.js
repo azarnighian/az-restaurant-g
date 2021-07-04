@@ -1,6 +1,6 @@
 const HomeInfo = () => {
   return (
-    <div className="container infoContainer">        
+    <div className="container homeInfoContainer">
         <h1>Location, Contact & Hours</h1>
         
         <p>123 Food Ave, New York, NY 10010</p>
