@@ -1,7 +1,7 @@
 import { Link } from 'react-router-dom'
 
-import image1 from './images/pexels-anna-tis-6341164.jpg';
-import image2 from './images/pexels-asad-photo-maldives-1449773.jpg';
+import image1 from './homeImages/pexels-anna-tis-6341164.jpg';
+import image2 from './homeImages/pexels-asad-photo-maldives-1449773.jpg';
 
 const HomeGallery = () => {
   return (
