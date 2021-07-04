@@ -45,7 +45,7 @@ button, a {
   align-items: center;
   
   background-image: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)),
-                    url("https://images.pexels.com/photos/2079438/pexels-photo-2079438.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940");
+                    url('/src/components/Home/images/pexels-emre-can-acer-2079438.jpg');
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -231,7 +231,7 @@ button, a {
 }                              
 .headingContainer {  
   background-image: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)),
-                    url("https://images.pexels.com/photos/6341164/pexels-photo-6341164.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260");
+                    url('/src/components/Home/images/pexels-anna-tis-6341164.jpg');
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
