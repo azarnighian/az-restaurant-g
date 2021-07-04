@@ -1,17 +1,29 @@
 document.addEventListener('DOMContentLoaded', function () {    
-    window.onscroll = function () { changeNavBar() };
+    const onLanding = document.querySelector('nav').classList.contains("landingNav");
+    if (onLanding) {
+        const navLinks = document.querySelectorAll('.nav-links a');
+        navLinks.forEach(link => {
+           link.className += " landingLink"; 
+        });   
+        
+        window.onscroll = function () { changeNavBar() };
+        
         // https://www.w3schools.com/jsref/prop_html_classname.asp
         // https://www.w3schools.com/jsref/tryit.asp?filename=tryjsref_onscroll2
+    }        
     
     navSlide();
 });
 
-const changeNavBar = () => {
-    if (document.body.scrollTop > 50 || document.documentElement.scrollTop > 50) {
+const changeNavBar = () => {        
+    const scrolled = document.body.scrollTop > 50 || document.documentElement.scrollTop > 50;
+            // https://stackoverflow.com/questions/5898656/check-if-an-element-contains-a-class-in-javascript      
+
+    if (scrolled) {
         document.querySelector('nav').className += " nav-scrolled";
     }
     else {
-        document.querySelector('nav').className = "";
+        document.querySelector('nav').className = " landingNav";
     }
 }
 

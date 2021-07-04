@@ -7,14 +7,14 @@ const NavBar = () => {
     
   return (
     // Learned from here: https://www.youtube.com/watch?v=gXkqy0b4M5g&t=837s
-    <nav>
+    <nav className={location.pathname === "/" ? "landingNav" : ""}>
         <div className="burger">
             <div className="line1"></div>
             <div className="line2"></div>
             <div className="line3"></div>
         </div> 
 
-        <h1 className="logo">RESTAURANT</h1>        
+        <h1 className={location.pathname === "/" ? "logo landingLogo" : "logo"}>RESTAURANT</h1>        
 
         <ul className="nav-links">
             <li>
