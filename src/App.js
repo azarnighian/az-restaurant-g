@@ -1,6 +1,7 @@
 import { BrowserRouter as Router, Route } from 'react-router-dom'
   // https://www.youtube.com/watch?v=yQf1KbGiwiI
   // https://www.youtube.com/watch?v=w7ejDZ8SWv8&t=621s
+
 import ScrollToTop from './components/ScrollToTop'
 import NavBar from './components/NavBar'
 import DarkScreenDiv from './components/DarkScreenDiv'
@@ -9,6 +10,7 @@ import About from './components/About'
 import Menu from './components/Menu'
 import Gallery from './components/Gallery'
 import Contact from './components/Contact'
+
 import './vhFix.js';
 import './navBarStuff.js';
 
