@@ -3,6 +3,7 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import './navBar.css';
 import SimpleReactLightbox from 'simple-react-lightbox'
+  // https://github.com/michelecocuccio/simple-react-lightbox
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 
