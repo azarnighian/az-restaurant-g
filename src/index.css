@@ -148,7 +148,7 @@ button, a {
 
                             /* HomeGallery.js */
 .beigeBackground {
-  background-color: var(--Beige); 
+  background-color: #dfbd8e; 
   padding: 4em 2em; 
 }                            
 .beigeBackground * {
@@ -349,6 +349,7 @@ button, a {
   margin-bottom: 2em;
 }
 .menuItem {
+  position: relative;
   margin-bottom: 1em;
 }
 .menuItem h2 {
@@ -358,6 +359,13 @@ button, a {
   padding: 0;
   padding-top: .5em; 
   text-align: initial;
+}
+.price {
+  position: absolute;
+  top: 8px;
+  right: 0;
+  width: initial;
+  font-weight: bold;
 }
 
 @media only screen and (min-width: 768px) {
