@@ -386,6 +386,21 @@ button, a {
   }
 }
 
+footer {
+  padding: 1.5em;
+  background-color: grey;
+  color: white;
+  text-align: center;  
+}
+footer a {
+  color: white;
+  text-decoration: none;
+}
+footer a:hover {
+  text-decoration: underline blue solid;  
+}
+
+
 
                               /* Font-size */
 @media screen and (min-width: 1400px) {

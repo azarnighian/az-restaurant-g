@@ -10,6 +10,7 @@ import About from './components/About'
 import Menu from './components/Menu'
 import Gallery from './components/Gallery'
 import Contact from './components/Contact'
+import Footer from './components/Footer'
 
 import './vhFix.js';
 import './navBarStuff.js';
@@ -26,6 +27,7 @@ function App() {
         <Route path="/menu" exact component={Menu} />
         <Route path="/gallery" exact component={Gallery} />
         <Route path="/contact" exact component={Contact} />
+        <Footer />
       </>
     </Router>
   );
