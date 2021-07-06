@@ -1,6 +1,16 @@
+import React, { useEffect } from 'react';
+
+import NavBar from './NavBar'
+import { navSlide } from '/Users/azarnighian/Desktop/az-restaurant/src/navBarStuff.js'
+
 const Contact = () => {
+  useEffect(() => {
+    navSlide();
+  });
+  
   return (
     <div className="pagesContainer">
+        <NavBar />
         <div className="headingContainer">
           <h1>Location, Contact & Hours</h1>
         </div>

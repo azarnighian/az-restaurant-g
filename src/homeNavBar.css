@@ -1,18 +1,38 @@
-.navBar {
+.landingNavBar {
   display: flex;
   justify-content: space-around;
   align-items: center;
   min-height: var(--NavBarHeight);
-  background-color: white;
+  background-color: transparent;
   position: fixed;
   top: 0;
   z-index: 100;
   width: 100%;
-  box-shadow: 0 1px 4px 0 rgba(0,0,0,.1);
-  border: 2px solid var(--Beige);
-}                        
+}
 
-.navLinks {
+                          /* To change on scroll: */
+.navScrolled {
+  box-shadow: 0 1px 4px 0 rgba(0,0,0,.1);
+  background-color: white;
+  border: 2px solid var(--Beige);
+  transition: box-shadow 0.2s, background-color 0.2s, border 0.2s;
+}
+.navScrolled .landingLogo {
+  color: var(--Beige);
+  transition: color 0.2s;
+}
+.navScrolled .landingNavLinks a {
+  color: grey;
+}
+.navScrolled .landingNavLinks a:hover {
+  color: var(--Beige);
+}
+.navScrolled .landingBurger div {
+  background-color: grey;
+}
+                                /* until here */
+
+.landingNavLinks {
   display: flex;
   position: absolute;
   left: 0px;
@@ -27,38 +47,35 @@
   transition: transform 0.6s;
   z-index: 10;
 }
-.navLinks li {
+.landingNavLinks li {
   list-style: none;
   opacity: 0;
 }
-.navLinks a {
+.landingNavLinks a {
   text-decoration: none;
   font-weight: 500;
   font-size: 1rem;
   color: grey;
   transition: color 0.2s;
 }
-.navLinks a:hover {
+.landingNavLinks a:hover {
   color: var(--Beige);
 }
-.active {
-  color: var(--Beige) !important;
-}
 
-.burger {
+.landingBurger {
   display: block;
   position: absolute;
   left: 15px;    
 }
-.burger div {
+.landingBurger div {
   width: 25px;
   height: 2px;
-  background-color: grey;
+  background-color: white;
   margin: 5px;  
   transition: all 0.3s ease;
 }
 
-.navActive {
+.landingNavActive {
   transform: translateX(0%);
 }
 .navActiveDarkenScreen {
@@ -70,7 +87,7 @@
   position: fixed;
 }
 
-@keyframes navLinkFade {
+@keyframes landingNavLinkFade {
   from {
     opacity: 0;
     transform: translateX(-50px);
@@ -81,26 +98,26 @@
   }
 }
 
-.toggle .line1 {
+.landingToggle .landingLine1 {
   transform: rotate(-45deg) translate(-5px,5px);
 }
-.toggle .line2 {
+.landingToggle .landingLine2 {
   opacity: 0;
 }
-.toggle .line3  {
+.landingToggle .landingLine3  {
   transform: rotate(45deg) translate(-5px,-5px);
 }
 
-.logo {
-  color: var(--Beige);
+.landingLogo {
+  color: white;
 }
 
 @media screen and (min-width: 768px){  
-  .logo {
+  .landingLogo {
     width: 40%;
   }
   
-  .navLinks {    
+  .landingNavLinks {    
     width: 40%;
         
     position: initial;
@@ -114,22 +131,22 @@
     transition: initial;
     z-index: initial;
   }
-  .navLinks li {
+  .landingNavLinks li {
     opacity: initial;
   }  
-  .navLinks a {
-    color: grey;
+  .landingNavLinks a {
+    color: white;
   }  
-  .burger {
+  .landingBurger {
     display: none;
   }
-  .burger div {
+  .landingBurger div {
     background-color: white;
   }
 }
 
 @media screen and (min-width: 1024px){
-  .navLinks {
+  .landingNavLinks {
     width: 30%;
   }
 }

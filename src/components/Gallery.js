@@ -1,3 +1,8 @@
+import React, { useEffect } from 'react';
+
+import NavBar from './NavBar'
+import { navSlide } from '/Users/azarnighian/Desktop/az-restaurant/src/navBarStuff.js'
+
 import image1 from './galleryImages/pexels-asad-photo-maldives-1449773.jpg';
 import image2 from './galleryImages/pexels-daria-shevtsova-704982.jpg';
 import image3 from './galleryImages/pexels-de-lemster-krant-2894275.jpg';
@@ -35,8 +40,13 @@ const options = {
 };
 
 const Gallery = () => {
+  useEffect(() => {
+    navSlide();
+  });
+  
   return (
     <div className="pagesContainer">        
+        <NavBar />
         <div className="headingContainer">
           <h1>Gallery</h1>
         </div>        

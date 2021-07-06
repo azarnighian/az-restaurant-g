@@ -1,6 +1,16 @@
+import React, { useEffect } from 'react';
+
+import NavBar from './NavBar'
+import { navSlide } from '/Users/azarnighian/Desktop/az-restaurant/src/navBarStuff.js'
+
 const Menu = () => {
+  useEffect(() => {
+    navSlide();
+  });
+  
   return (
     <div className="pagesContainer">        
+        <NavBar />
         <div className="headingContainer">
           <h1>Our Menu</h1>
         </div>        
