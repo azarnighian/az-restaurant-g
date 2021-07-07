@@ -37,6 +37,14 @@ button, a {
       /* https://stackoverflow.com/questions/21003535/anyway-to-prevent-the-blue-highlighting-of-elements-in-chrome-when-clicking-quic */
 }
 
+
+.stopScrolling {
+  height: 100%;
+  overflow: hidden;
+}
+  /* https://www.geeksforgeeks.org/how-to-disable-scrolling-temporarily-using-javascript/ */
+
+
                               /* HomeLanding.js */
 .landingContainer {
   display: flex;

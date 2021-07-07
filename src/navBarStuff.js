@@ -1,12 +1,14 @@
 export const navSlide = () => {
+    const nav = document.querySelector('.navBar');
     const burger = document.querySelector('.burger');
-    const nav = document.querySelector('.navLinks');
+    const navLinksBackground = document.querySelector('.navLinks');
     const navLinks = document.querySelectorAll('.navLinks li');
     // const darkBackground = document.querySelector('.navActiveDarkenScreen');
 
     burger.addEventListener('click', () => {
-        // Toggle Nav        
-        nav.classList.toggle('navActive');
+        document.body.classList.toggle('stopScrolling');
+        nav.classList.toggle('burgerClicked');               
+        navLinksBackground.classList.toggle('navActive');
 
         // Darken background
             // https://stackoverflow.com/questions/4866229/check-element-css-display-with-javascript

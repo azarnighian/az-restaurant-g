@@ -1,6 +1,5 @@
 export const changeNavBar = () => {        
-    const scrolled = document.body.scrollTop > 50 || document.documentElement.scrollTop > 50;
-        // https://stackoverflow.com/questions/5898656/check-if-an-element-contains-a-class-in-javascript      
+    const scrolled = document.body.scrollTop > 50 || document.documentElement.scrollTop > 50;        
 
     if (scrolled) {
         document.querySelector('.landingNavBar').className += " navScrolled";
@@ -11,14 +10,16 @@ export const changeNavBar = () => {
 }
 
 export const landingNavSlide = () => {
+    const landingNav = document.querySelector('.landingNavBar');
     const landingBurger = document.querySelector('.landingBurger');
-    const landingNav = document.querySelector('.landingNavLinks');
+    const landingNavLinksBackground = document.querySelector('.landingNavLinks');
     const landingNavLinks = document.querySelectorAll('.landingNavLinks li');
     // const landingDarkBackground = document.querySelector('.navActiveDarkenScreen');
 
     landingBurger.addEventListener('click', () => {
-        // Toggle Nav        
-        landingNav.classList.toggle('landingNavActive');
+        document.body.classList.toggle('stopScrolling');
+        landingNav.classList.toggle('burgerClicked');
+        landingNavLinksBackground.classList.toggle('landingNavActive');
 
         // Darken background
             // https://stackoverflow.com/questions/4866229/check-element-css-display-with-javascript

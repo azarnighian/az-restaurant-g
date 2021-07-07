@@ -8,9 +8,21 @@
   top: 0;
   z-index: 100;
   width: 100%;
-  box-shadow: 0 1px 4px 0 rgba(0,0,0,.1);
   border: 2px solid var(--Beige);
 }                        
+
+                        /* to change on burger click */
+.burgerClicked {
+  border-style: none;
+  background-color: white;
+}
+.burgerClicked .landingLogo {
+  color: var(--Beige);
+}
+.burgerClicked .landingBurger div {
+  background-color: grey;
+}
+                                /* until here */
 
 .navLinks {
   display: flex;

@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom";
-import '/Users/azarnighian/Desktop/az-restaurant/src/homeNavBar.css';
+import '/Users/azarnighian/Desktop/az-restaurant/src/landingNavBar.css';
 import '/Users/azarnighian/Desktop/az-restaurant/src/landingNavBarStuff.js';
 
 const NavBar = () => {   

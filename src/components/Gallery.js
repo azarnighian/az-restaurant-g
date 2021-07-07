@@ -42,6 +42,9 @@ const options = {
 const Gallery = () => {
   useEffect(() => {
     navSlide();
+    return () => {      
+      document.body.classList.remove('stopScrolling');
+    };
   });
   
   return (

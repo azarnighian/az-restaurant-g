@@ -6,6 +6,9 @@ import { navSlide } from '/Users/azarnighian/Desktop/az-restaurant/src/navBarStu
 const Contact = () => {
   useEffect(() => {
     navSlide();
+    return () => {      
+      document.body.classList.remove('stopScrolling');
+    };
   });
   
   return (

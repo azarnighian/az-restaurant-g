@@ -12,10 +12,9 @@
 
                           /* To change on scroll: */
 .navScrolled {
-  box-shadow: 0 1px 4px 0 rgba(0,0,0,.1);
   background-color: white;
   border: 2px solid var(--Beige);
-  transition: box-shadow 0.2s, background-color 0.2s, border 0.2s;
+  transition: background-color 0.2s, border 0.2s;
 }
 .navScrolled .landingLogo {
   color: var(--Beige);
@@ -28,6 +27,19 @@
   color: var(--Beige);
 }
 .navScrolled .landingBurger div {
+  background-color: grey;
+}
+                                /* until here */
+
+                          /* to change on burger click */
+.burgerClicked {
+  border-style: none;
+  background-color: white;
+}
+.burgerClicked .landingLogo {
+  color: var(--Beige);
+}
+.burgerClicked .landingBurger div {
   background-color: grey;
 }
                                 /* until here */
