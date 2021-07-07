@@ -15,8 +15,8 @@ const Home = () => {
     window.addEventListener('scroll', changeNavBar);
     landingNavSlide();
     return () => {
-      window.removeEventListener('scroll', changeNavBar);
       document.body.classList.remove('stopScrolling');
+      window.removeEventListener('scroll', changeNavBar);      
     };
   });
   

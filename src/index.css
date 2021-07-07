@@ -61,7 +61,7 @@ button, a {
   background-attachment: fixed;
   
   width: 100%;
-  min-height: var(--vh100);
+  min-height: 100vh;
   padding: 1rem;
   color: white;
   text-align: center; 

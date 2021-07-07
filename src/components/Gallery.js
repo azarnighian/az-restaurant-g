@@ -2,6 +2,7 @@ import React, { useEffect } from 'react';
 
 import NavBar from './NavBar'
 import { navSlide } from '/Users/azarnighian/Desktop/az-restaurant/src/navBarStuff.js'
+import { changeNavBar } from '/Users/azarnighian/Desktop/az-restaurant/src/landingNavBarStuff.js'
 
 import image1 from './galleryImages/pexels-asad-photo-maldives-1449773.jpg';
 import image2 from './galleryImages/pexels-daria-shevtsova-704982.jpg';
@@ -41,6 +42,7 @@ const options = {
 
 const Gallery = () => {
   useEffect(() => {
+    window.removeEventListener('scroll', changeNavBar);
     navSlide();
     return () => {      
       document.body.classList.remove('stopScrolling');

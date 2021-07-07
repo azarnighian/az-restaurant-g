@@ -2,9 +2,11 @@ import React, { useEffect } from 'react';
 
 import NavBar from './NavBar'
 import { navSlide } from '/Users/azarnighian/Desktop/az-restaurant/src/navBarStuff.js'
+import { changeNavBar } from '/Users/azarnighian/Desktop/az-restaurant/src/landingNavBarStuff.js'
 
 const Menu = () => {
   useEffect(() => {
+    window.removeEventListener('scroll', changeNavBar);
     navSlide();
     return () => {      
       document.body.classList.remove('stopScrolling');
