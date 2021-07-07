@@ -4,6 +4,7 @@ import NavBar from './NavBar'
 import { navSlide } from '/Users/azarnighian/Desktop/az-restaurant/src/navBarStuff.js'
 import { changeNavBar } from '/Users/azarnighian/Desktop/az-restaurant/src/landingNavBarStuff.js'
 
+import headingImage from '/Users/azarnighian/Desktop/az-restaurant/src/components/Home/homeImages/pexels-anna-tis-6341164.jpg';
 import image1 from './galleryImages/pexels-asad-photo-maldives-1449773.jpg';
 import image2 from './galleryImages/pexels-daria-shevtsova-704982.jpg';
 import image3 from './galleryImages/pexels-de-lemster-krant-2894275.jpg';
@@ -53,6 +54,7 @@ const Gallery = () => {
     <div className="pagesContainer">        
         <NavBar />
         <div className="headingContainer">
+          <img src={headingImage} alt="heading"></img>
           <h1>Gallery</h1>
         </div>        
         <div className="galleryContainer">

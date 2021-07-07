@@ -3,6 +3,7 @@ import React, { useEffect } from 'react';
 import NavBar from './NavBar'
 import { navSlide } from '/Users/azarnighian/Desktop/az-restaurant/src/navBarStuff.js'
 import { changeNavBar } from '/Users/azarnighian/Desktop/az-restaurant/src/landingNavBarStuff.js'
+import headingImage from '/Users/azarnighian/Desktop/az-restaurant/src/components/Home/homeImages/pexels-anna-tis-6341164.jpg';
 
 const Contact = () => {
   useEffect(() => {
@@ -17,6 +18,7 @@ const Contact = () => {
     <div className="pagesContainer">
         <NavBar />
         <div className="headingContainer">
+          <img src={headingImage} alt="heading"></img>
           <h1>Location, Contact & Hours</h1>
         </div>
 

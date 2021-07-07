@@ -3,6 +3,7 @@ import React, { useEffect } from 'react';
 import NavBar from './NavBar'
 import { navSlide } from '/Users/azarnighian/Desktop/az-restaurant/src/navBarStuff.js'
 import { changeNavBar } from '/Users/azarnighian/Desktop/az-restaurant/src/landingNavBarStuff.js'
+import headingImage from '/Users/azarnighian/Desktop/az-restaurant/src/components/Home/homeImages/pexels-anna-tis-6341164.jpg';
 
 const About = () => {
   useEffect(() => {
@@ -17,6 +18,7 @@ const About = () => {
     <div className="pagesContainer">   
         <NavBar />
         <div className="headingContainer">
+          <img src={headingImage} alt="heading"></img>
           <h1>About Us</h1>
         </div>        
         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Laoreet suspendisse interdum consectetur libero id. Eu non diam phasellus vestibulum lorem. Posuere lorem ipsum dolor sit amet consectetur adipiscing elit duis. In massa tempor nec feugiat nisl pretium. Risus ultricies tristique nulla aliquet. Volutpat consequat mauris nunc congue nisi vitae suscipit tellus mauris. Sed nisi lacus sed viverra tellus. Porta non pulvinar neque laoreet suspendisse interdum consectetur. Mauris pellentesque pulvinar pellentesque habitant morbi tristique senectus et. Bibendum at varius vel pharetra vel turpis. Arcu bibendum at varius vel pharetra vel turpis.</p>
