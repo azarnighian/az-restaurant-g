@@ -94,7 +94,7 @@ button, a {
 
                               /* HomeAbout.js */
 .container {
-  padding: 4em;
+  padding: 4em 2em;
   background-color: rgb(240, 240, 240);
   display: flex;
   flex-direction: column; 
@@ -140,7 +140,7 @@ button, a {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  padding: 3em;
+  padding: 3em 2em;
   text-align: center;
 }
 .menuTextContainer h1 {
@@ -162,6 +162,9 @@ button, a {
     padding: 3em 0 3em 3em;
     max-height: initial;
   }  
+  .menuTextContainer {
+    padding: 3em;
+  }
 }
 
                             /* HomeGallery.js */
