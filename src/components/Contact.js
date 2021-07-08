@@ -1,5 +1,8 @@
 import React, { useEffect } from 'react';
 
+import { motion } from "framer-motion"
+  // https://www.youtube.com/watch?v=qJt-FtzJ5fo
+
 import NavBar from './NavBar'
 import { navSlide } from '/Users/azarnighian/Desktop/az-restaurant/src/navBarStuff.js'
 import { changeNavBar } from '/Users/azarnighian/Desktop/az-restaurant/src/landingNavBarStuff.js'
@@ -15,7 +18,12 @@ const Contact = () => {
   });
   
   return (
-    <div className="pagesContainer">
+    <motion.div 
+      initial={{ opacity: .7 }}
+      animate={{ opacity: 1 }} 
+      exit={{ opacity: .7 }} 
+    >
+      <div className="pagesContainer">
         <NavBar />
         <div className="headingContainer">
           <img src={headingImage} alt="heading"></img>
@@ -32,7 +40,9 @@ const Contact = () => {
           <p><b>Weekends</b></p>
           <p>9am - 11pm</p>
         </div>
-    </div>
+      </div>
+    </motion.div>
+    
   )
 }
 

@@ -13,7 +13,7 @@
                           /* To change on scroll: */
 .navScrolled {
   background-color: white;
-  border: 2px solid var(--Beige);
+  border: 3px solid var(--Beige);
   transition: background-color 0.2s, border 0.2s;
 }
 .navScrolled .landingLogo {

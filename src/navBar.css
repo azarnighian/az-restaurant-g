@@ -8,7 +8,7 @@
   top: 0;
   z-index: 100;
   width: 100%;
-  border: 2px solid var(--Beige);
+  border: 3px solid var(--Beige);
 }                        
 
                         /* to change on burger click */
