@@ -185,7 +185,7 @@ const Menu = () => {
                 <p className="price">$15</p>
               </div>
               <div className="menuItem">
-                <h2>Filet Mignon</h2>
+                <h2>Filet Mignon Steak</h2>
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod</p>
                 <p className="price">$8</p>
               </div>

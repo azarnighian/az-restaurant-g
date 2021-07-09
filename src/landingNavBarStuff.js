@@ -14,27 +14,21 @@ export const landingNavSlide = () => {
     const landingBurger = document.querySelector('.landingBurger');
     const landingNavLinksBackground = document.querySelector('.landingNavLinks');
     const landingNavLinks = document.querySelectorAll('.landingNavLinks li');
-    // const landingDarkBackground = document.querySelector('.navActiveDarkenScreen');
-
+    const linkButton = document.querySelectorAll('.linkButton');
+    
     landingBurger.addEventListener('click', () => {
         document.body.classList.toggle('stopScrolling');
         landingNav.classList.toggle('burgerClicked');
         landingNavLinksBackground.classList.toggle('landingNavActive');
-
-        // Darken background
-            // https://stackoverflow.com/questions/4866229/check-element-css-display-with-javascript
-        // if (window.getComputedStyle(landingDarkBackground).display === "none") {
-        //     landingDarkBackground.style.display = "block";
-        // } else if (window.getComputedStyle(landingDarkBackground).display === "block") {
-        //     landingDarkBackground.style.display = "none";
-        // }
-
+        linkButton.forEach((button) => {
+            button.classList.toggle('burgerClickedButton');
+        });
         // Animate Links
         landingNavLinks.forEach((link, index) => {
             if (link.style.animation) {
                 link.style.animation = '';
             } else {
-                link.style.animation = `landingNavLinkFade 0.7s ease forwards ${index / 7 + 0.3}s`;
+                link.style.animation = `landingNavLinkFade 0.7s ease forwards ${index / 7}s`;
             }
         });
         // Burger Animation

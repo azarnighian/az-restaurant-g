@@ -164,6 +164,7 @@ button, a {
   font-weight: 700; 
   letter-spacing: 1px;
   text-decoration: none;
+  z-index: 1000;
 }
 .linkButton:hover {
   background-color: var(--Beige);

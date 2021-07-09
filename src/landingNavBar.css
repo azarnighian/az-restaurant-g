@@ -1,3 +1,8 @@
+/* Variables */
+:root {
+  --transitionTime: 0.4s;  
+}
+
 .landingNavBar {
   display: flex;
   justify-content: space-around;
@@ -35,12 +40,17 @@
 .burgerClicked {
   border-style: none;
   background-color: white;
+  transition: background-color var(--transitionTime), border var(--transitionTime);
 }
 .burgerClicked .landingLogo {
   color: var(--Beige);
+  transition: color var(--transitionTime);
 }
 .burgerClicked .landingBurger div {
   background-color: grey;
+}
+.burgerClickedButton {
+  z-index: -1;
 }
                                 /* until here */
 
@@ -55,9 +65,10 @@
   justify-content: space-around;
   align-items: center;
   width: 100%;  
-  transform: translateX(-101%);
-  transition: transform 0.6s;
-  z-index: 10;
+  opacity: 0;
+  /* transform: translateX(-101%); */
+  transition: opacity var(--transitionTime);
+  z-index: -1;
 }
 .landingNavLinks li {
   list-style: none;
@@ -88,15 +99,9 @@
 }
 
 .landingNavActive {
-  transform: translateX(0%);
-}
-.navActiveDarkenScreen {
-  display: none;
-  z-index: 99;
-  background-color: rgba(0, 0, 0, 0.5);
-  height: 100%;
-  width: 100%;  
-  position: fixed;
+  /* transform: translateX(0%); */
+  opacity: 1;
+  z-index: 2000;
 }
 
 @keyframes landingNavLinkFade {
