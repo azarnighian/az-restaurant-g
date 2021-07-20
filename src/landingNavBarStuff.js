@@ -11,18 +11,47 @@ export const changeNavBar = () => {
 
 export const landingNavSlide = () => {
     const landingNav = document.querySelector('.landingNavBar');
+    const landingNavLogo = document.querySelector('.landingLogo');
     const landingBurger = document.querySelector('.landingBurger');
+    const landingBurgerLines = document.querySelectorAll('.landingBurger div');
     const landingNavLinksBackground = document.querySelector('.landingNavLinks');
     const landingNavLinks = document.querySelectorAll('.landingNavLinks li');
-    const linkButton = document.querySelectorAll('.linkButton');
     
     landingBurger.addEventListener('click', () => {
         document.body.classList.toggle('stopScrolling');
-        landingNav.classList.toggle('burgerClicked');
-        landingNavLinksBackground.classList.toggle('landingNavActive');
-        linkButton.forEach((button) => {
-            button.classList.toggle('burgerClickedButton');
+        
+        // Animate nav header
+        // landingNav.classList.toggle('burgerClicked');
+        if (landingNav.style.animation) {
+            landingNav.style.animation = '';
+        }
+        else {
+            landingNav.style.animation = 'landingNavHeaderFade 0.7s ease forwards';
+        }
+        // Animate logo
+        if (landingNavLogo.style.animation) {
+            landingNavLogo.style.animation = '';
+        }
+        else {
+            landingNavLogo.style.animation = 'landingNavLogoFade 0.7s ease forwards';
+        }
+        // Animate burger
+        landingBurgerLines.forEach((line, index) => {
+            if (line.style.animation) {
+                line.style.animation = '';
+            } else {
+                line.style.animation = 'landingNavBurgerFade 0.7s ease forwards';
+            }
         });
+        
+        // Animate links background
+        if (landingNavLinksBackground.style.animation) {
+            landingNavLinksBackground.style.animation = '';
+        }
+        else {
+            landingNavLinksBackground.style.animation = 'landingNavFade 0.7s ease forwards';
+        }
+        
         // Animate Links
         landingNavLinks.forEach((link, index) => {
             if (link.style.animation) {

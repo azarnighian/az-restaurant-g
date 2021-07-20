@@ -11,7 +11,7 @@
   background-color: transparent;
   position: fixed;
   top: 0;
-  z-index: 100;
+  /* z-index: 100; */
   width: 100%;
 }
 
@@ -37,21 +37,21 @@
                                 /* until here */
 
                           /* to change on burger click */
-.burgerClicked {
+/* .burgerClicked {
   border-style: none;
   background-color: white;
   transition: background-color var(--transitionTime), border var(--transitionTime);
-}
-.burgerClicked .landingLogo {
+} */
+/* .burgerClicked .landingLogo {
   color: var(--Beige);
   transition: color var(--transitionTime);
-}
-.burgerClicked .landingBurger div {
+} */
+/* .burgerClicked .landingBurger div {
   background-color: grey;
-}
-.burgerClickedButton {
+} */
+/* .burgerClickedButton {
   z-index: -1;
-}
+} */
                                 /* until here */
 
 .landingNavLinks {
@@ -67,8 +67,8 @@
   width: 100%;  
   opacity: 0;
   /* transform: translateX(-101%); */
-  transition: opacity var(--transitionTime);
-  z-index: -1;
+  transition: opacity var(--transitionTime), transform var(--transitionTime);
+  /* z-index: -1; */
 }
 .landingNavLinks li {
   list-style: none;
@@ -98,10 +98,29 @@
   transition: all 0.3s ease;
 }
 
-.landingNavActive {
-  /* transform: translateX(0%); */
-  opacity: 1;
-  z-index: 2000;
+
+@keyframes landingNavHeaderFade {
+  to {
+    border-style: none;
+    background-color: white;
+  }
+}
+
+@keyframes landingNavLogoFade {
+  to {
+    color: var(--Beige);
+  }
+}
+@keyframes landingNavBurgerFade {
+  to {
+    background-color: grey;
+  }
+}
+
+@keyframes landingNavFade {
+  0% {opacity: 0; transform: translateX(-101%);} 
+  .1% {transform: translateX(0%);} 
+  100% {opacity: 1;}
 }
 
 @keyframes landingNavLinkFade {
@@ -146,7 +165,7 @@
     align-items: initial;
     transform: initial;
     transition: initial;
-    z-index: initial;
+    /* z-index: initial; */
   }
   .landingNavLinks li {
     opacity: initial;
