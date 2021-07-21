@@ -1,6 +1,6 @@
 /* Variables */
 :root {
-  --transitionTime: 0.4s;  
+  --landingTransitionTime: 0.7s;  
 }
 
 .landingNavBar {
@@ -11,47 +11,56 @@
   background-color: transparent;
   position: fixed;
   top: 0;
-  /* z-index: 100; */
   width: 100%;
-}
+  /* Fade out transition: */
+  transition: background-color var(--landingTransitionTime), border-style var(--landingTransitionTime);
+}                          
 
-                          /* To change on scroll: */
-.navScrolled {
+                          /* to change on burger click */
+.landingBurgerClicked {
+  /* !important so that landingNavScrolled doesn't override the following  */
+  border-style: none !important;
+  background-color: white !important;
+  transition: background-color var(--landingTransitionTime), border-style var(--landingTransitionTime) !important;
+}
+.landingBurgerClicked .landingLogo {
+  color: var(--Beige);
+  transition: color var(--landingTransitionTime) !important;
+}
+.landingBurgerClicked .landingBurger div {
+  background-color: grey;
+}
+.landingBurgerClicked .landingNavLinks{
+  /* https://stackoverflow.com/questions/37310037/fade-in-and-fade-out-overlay-by-toggling-a-hamburger-menu */
+  visibility: visible;
+  opacity: 1;
+  transition: opacity var(--landingTransitionTime);
+}
+.landingBurgerClicked .landingNavLinks li {
+  opacity: 1;
+  transform: translateY(0px);
+}
+                                /* until here */
+
+                            /* To change on scroll: */
+.landingNavScrolled {
   background-color: white;
   border: 3px solid var(--Beige);
   transition: background-color 0.2s, border 0.2s;
 }
-.navScrolled .landingLogo {
+.landingNavScrolled .landingLogo {
   color: var(--Beige);
   transition: color 0.2s;
 }
-.navScrolled .landingNavLinks a {
+.landingNavScrolled .landingNavLinks a {
   color: grey;
 }
-.navScrolled .landingNavLinks a:hover {
+.landingNavScrolled .landingNavLinks a:hover {
   color: var(--Beige);
 }
-.navScrolled .landingBurger div {
+.landingNavScrolled .landingBurger div {
   background-color: grey;
 }
-                                /* until here */
-
-                          /* to change on burger click */
-/* .burgerClicked {
-  border-style: none;
-  background-color: white;
-  transition: background-color var(--transitionTime), border var(--transitionTime);
-} */
-/* .burgerClicked .landingLogo {
-  color: var(--Beige);
-  transition: color var(--transitionTime);
-} */
-/* .burgerClicked .landingBurger div {
-  background-color: grey;
-} */
-/* .burgerClickedButton {
-  z-index: -1;
-} */
                                 /* until here */
 
 .landingNavLinks {
@@ -65,14 +74,15 @@
   justify-content: space-around;
   align-items: center;
   width: 100%;  
-  opacity: 0;
-  /* transform: translateX(-101%); */
-  transition: opacity var(--transitionTime), transform var(--transitionTime);
-  /* z-index: -1; */
+  opacity: 0; 
+  visibility: hidden;  
+  transition: opacity var(--landingTransitionTime), visibility 0s var(--landingTransitionTime);
 }
 .landingNavLinks li {
   list-style: none;
   opacity: 0;
+  transform: translateY(-50px);
+  transition: opacity var(--landingTransitionTime), transform var(--landingTransitionTime);
 }
 .landingNavLinks a {
   text-decoration: none;
@@ -99,41 +109,6 @@
 }
 
 
-@keyframes landingNavHeaderFade {
-  to {
-    border-style: none;
-    background-color: white;
-  }
-}
-
-@keyframes landingNavLogoFade {
-  to {
-    color: var(--Beige);
-  }
-}
-@keyframes landingNavBurgerFade {
-  to {
-    background-color: grey;
-  }
-}
-
-@keyframes landingNavFade {
-  0% {opacity: 0; transform: translateX(-101%);} 
-  .1% {transform: translateX(0%);} 
-  100% {opacity: 1;}
-}
-
-@keyframes landingNavLinkFade {
-  from {
-    opacity: 0;
-    transform: translateX(-50px);
-  }
-  to {
-    opacity: 1;
-    transform: translateX(0px);
-  }
-}
-
 .landingToggle .landingLine1 {
   transform: rotate(-45deg) translate(-5px,5px);
 }
@@ -146,6 +121,7 @@
 
 .landingLogo {
   color: white;
+  transition: color var(--landingTransitionTime);
 }
 
 @media screen and (min-width: 768px){  
@@ -163,9 +139,9 @@
     background-color: initial;
     flex-direction: initial;
     align-items: initial;
-    transform: initial;
-    transition: initial;
-    /* z-index: initial; */
+    opacity: initial; 
+    visibility: initial;
+    transition: initial;      
   }
   .landingNavLinks li {
     opacity: initial;
