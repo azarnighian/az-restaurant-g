@@ -16,19 +16,19 @@ const NavBar = () => {
 
         <ul className="navLinks">
             <li>
-                <NavLink exact activeClassName="active" to="/">Home</NavLink>
+                <NavLink exact activeClassName="currentPage" to="/">Home</NavLink>
             </li>                    
             <li>
-                <NavLink exact activeClassName="active" to="/about">About</NavLink>
+                <NavLink exact activeClassName="currentPage" to="/about">About</NavLink>
             </li>
             <li>
-                <NavLink exact activeClassName="active" to="/menu">Menu</NavLink>
+                <NavLink exact activeClassName="currentPage" to="/menu">Menu</NavLink>
             </li>
             <li>
-                <NavLink exact activeClassName="active" to="/gallery">Gallery</NavLink>
+                <NavLink exact activeClassName="currentPage" to="/gallery">Gallery</NavLink>
             </li>
             <li>
-                <NavLink exact activeClassName="active" to="/contact">Contact</NavLink>
+                <NavLink exact activeClassName="currentPage" to="/contact">Contact</NavLink>
             </li>
         </ul>            
     </nav>

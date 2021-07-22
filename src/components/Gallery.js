@@ -59,8 +59,8 @@ const Gallery = () => {
       animate={{ opacity: 1 }} 
       exit={{ opacity: .7 }} 
     >
-      <div className="pagesContainer">        
-          <NavBar />
+      <NavBar />
+      <div className="pagesContainer">                  
           <div className="headingContainer">
             <img src={headingImage} alt="heading"></img>
             <h1>Gallery</h1>
