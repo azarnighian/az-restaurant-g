@@ -416,9 +416,12 @@ button, a {
 }
 .menuItem h2 {
   color: var(--Beige);
+  margin-right: 3rem;
 }
-.menuItem p, .menuItem h2 {
+.menuItem p {
   padding: 0;
+}
+.menuItem p, .menuItem h2 { 
   padding-top: .5em; 
   text-align: initial;
 }

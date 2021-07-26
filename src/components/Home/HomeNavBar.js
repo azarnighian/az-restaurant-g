@@ -17,7 +17,7 @@ const NavBar = () => {
         <ul className="landingNavLinks">
             <li>
                 <Link to="/">Home</Link>
-            </li>                    
+            </li>
             <li>
                 <Link to="/about">About</Link>
             </li>
