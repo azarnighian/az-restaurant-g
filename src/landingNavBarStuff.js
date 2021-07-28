@@ -1,5 +1,6 @@
 export const changeNavBar = () => {        
-    const scrolled = document.body.scrollTop > 50 || document.documentElement.scrollTop > 50;        
+    const wrapperDiv = document.querySelector('.wrapper');
+    const scrolled = wrapperDiv.scrollTop > 50;        
 
     if (scrolled) {
         document.querySelector('.landingNavBar').className += " landingNavScrolled";

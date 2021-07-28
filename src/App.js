@@ -11,7 +11,6 @@ import About from './components/About'
 import Menu from './components/Menu'
 import Gallery from './components/Gallery'
 import Contact from './components/Contact'
-import Footer from './components/Footer'
 
 import './vhFix.js';
 
@@ -24,8 +23,7 @@ function App() {
         <Route path="/about" exact component={About} />
         <Route path="/menu" exact component={Menu} />
         <Route path="/gallery" exact component={Gallery} />
-        <Route path="/contact" exact component={Contact} />
-        <Footer />
+        <Route path="/contact" exact component={Contact} />        
       </Router>
     </AnimatePresence>      
   );

@@ -7,6 +7,8 @@ import NavBar from './NavBar'
 import { navSlide } from '/Users/azarnighian/Desktop/az-restaurant/src/navBarStuff.js'
 import { changeNavBar } from '/Users/azarnighian/Desktop/az-restaurant/src/landingNavBarStuff.js'
 
+import Footer from './Footer'
+
 import headingImage from '/Users/azarnighian/Desktop/az-restaurant/src/components/Home/homeImages/pexels-anna-tis-6341164.jpg';
 import image1 from './galleryImages/pexels-asad-photo-maldives-1449773.jpg';
 import image2 from './galleryImages/pexels-daria-shevtsova-704982.jpg';
@@ -59,28 +61,31 @@ const Gallery = () => {
       animate={{ opacity: 1 }} 
       exit={{ opacity: .7 }} 
     >
-      <NavBar />
-      <div className="pagesContainer">                  
-          <div className="headingContainer">
-            <img src={headingImage} alt="heading"></img>
-            <h1>Gallery</h1>
-          </div>        
-          <div className="galleryContainer">
-            <SRLWrapper options={options}>
-              <img src={image1} alt="Gallery 1"></img>
-              <img src={image2} alt="Gallery 2"></img>
-              <img src={image3} alt="Gallery 3"></img>
-              <img src={image4} alt="Gallery 4"></img>
-              <img src={image5} alt="Gallery 5"></img>
-              <img src={image6} alt="Gallery 6"></img>
-              <img src={image7} alt="Gallery 7"></img>
-              <img src={image8} alt="Gallery 8"></img>
-              <img src={image9} alt="Gallery 9"></img>
-              <img src={image10} alt="Gallery 10"></img>
-              <img src={image11} alt="Gallery 11"></img>
-              <img src={image12} alt="Gallery 12"></img>
-            </SRLWrapper>          
-          </div>      
+      <div className="wrapper">
+        <NavBar />
+        <div className="pagesContainer">                  
+            <div className="headingContainer">
+              <img src={headingImage} alt="heading"></img>
+              <h1>Gallery</h1>
+            </div>        
+            <div className="galleryContainer">
+              <SRLWrapper options={options}>
+                <img src={image1} alt="Gallery 1"></img>
+                <img src={image2} alt="Gallery 2"></img>
+                <img src={image3} alt="Gallery 3"></img>
+                <img src={image4} alt="Gallery 4"></img>
+                <img src={image5} alt="Gallery 5"></img>
+                <img src={image6} alt="Gallery 6"></img>
+                <img src={image7} alt="Gallery 7"></img>
+                <img src={image8} alt="Gallery 8"></img>
+                <img src={image9} alt="Gallery 9"></img>
+                <img src={image10} alt="Gallery 10"></img>
+                <img src={image11} alt="Gallery 11"></img>
+                <img src={image12} alt="Gallery 12"></img>
+              </SRLWrapper>          
+            </div>      
+        </div>
+        <Footer />
       </div>
     </motion.div>
   )
