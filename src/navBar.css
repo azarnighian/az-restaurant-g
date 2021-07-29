@@ -16,16 +16,19 @@
   border: 3px solid var(--Beige);
   /* Fade out transition: */
   transition: background-color var(--transitionTime), border-style var(--transitionTime);
-}                        
+}                                
 
-                        /* to change on burger click */
+                        /* To change on burger click */
 .burgerClicked {
-  border-style: none;
-  background-color: var(--mobileNavBackgroundColor);
+  border-style: none !important;
+  background-color: var(--mobileNavBackgroundColor) !important;
   transition: background-color var(--transitionTime), border-style var(--transitionTime);
 }
+.burgerClicked .logo {
+  color: var(--Beige) !important;
+}
 .burgerClicked .burger div {
-  background-color: grey;
+  background-color: grey !important;
 }
 .burgerClicked .navLinks{
   /* https://stackoverflow.com/questions/37310037/fade-in-and-fade-out-overlay-by-toggling-a-hamburger-menu */
@@ -142,3 +145,47 @@
     width: 30%;
   }
 }
+
+
+/* For landing page  */
+.landingNav {
+  background-color: transparent;
+  border-style: none;
+}
+.landingNav .logo {
+  color: white;
+}
+.landingNav .burger div {
+  background-color: white;
+}
+@media screen and (min-width: 768px) {
+  .landingNav .navLinks a {
+    color: white;
+  }
+  .landingNav .navLinks a:hover {
+    color: var(--Beige);
+  }
+} 
+
+                    /* To change on scroll on landing page: */
+.landingNavScrolled {
+  background-color: white;
+  border: 3px solid var(--Beige);
+  transition: background-color 0.2s, border 0.1s;
+}
+.landingNavScrolled .logo {
+  color: var(--Beige);
+  transition: color 0.2s;
+}
+.landingNavScrolled .burger div {
+  background-color: grey;
+}
+@media screen and (min-width: 768px) {
+  .landingNavScrolled .navLinks a {
+    color: grey;
+  }
+  .landingNavScrolled .navLinks a:hover {
+    color: var(--Beige);
+  }
+}
+/* until here */

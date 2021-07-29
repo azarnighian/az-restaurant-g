@@ -1,23 +1,13 @@
-import React, { useEffect } from 'react';
+import React from 'react';
 
 import { motion } from "framer-motion"
   // https://www.youtube.com/watch?v=qJt-FtzJ5fo
 
 import NavBar from './NavBar'
-import { navSlide } from '/Users/azarnighian/Desktop/az-restaurant/src/navBarStuff.js'
-import { changeNavBar } from '/Users/azarnighian/Desktop/az-restaurant/src/landingNavBarStuff.js'
 import headingImage from '/Users/azarnighian/Desktop/az-restaurant/src/components/Home/homeImages/pexels-anna-tis-6341164.jpg';
 import Footer from './Footer'
 
-const Menu = () => {
-  useEffect(() => {
-    window.removeEventListener('scroll', changeNavBar);
-    navSlide();
-    return () => {      
-      document.body.classList.remove('stopScrolling');
-    };
-  });
-  
+const Menu = () => {  
   return (
     <motion.div 
       initial={{ opacity: .7 }}

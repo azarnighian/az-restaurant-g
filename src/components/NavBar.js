@@ -1,8 +1,14 @@
+import { useEffect } from 'react';
 import { NavLink } from "react-router-dom";
 import '/Users/azarnighian/Desktop/az-restaurant/src/navBar.css';
-import '/Users/azarnighian/Desktop/az-restaurant/src/navBarStuff.js';
+import { navBurgerClick } from '/Users/azarnighian/Desktop/az-restaurant/src/navBarStuff.js'
+
 
 const NavBar = () => {   
+  useEffect(() => {
+    navBurgerClick();
+  });
+
   return (
     // Learned from here: https://www.youtube.com/watch?v=gXkqy0b4M5g&t=837s
     <nav className="navBar">
@@ -16,7 +22,7 @@ const NavBar = () => {
 
         <ul className="navLinks">
             <li>
-                <NavLink exact activeClassName="currentPage" to="/">Home</NavLink>
+                <NavLink exact to="/">Home</NavLink>
             </li>                    
             <li>
                 <NavLink exact activeClassName="currentPage" to="/about">About</NavLink>

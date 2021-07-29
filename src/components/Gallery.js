@@ -1,11 +1,9 @@
-import React, { useEffect } from 'react';
+import React from 'react';
 
 import { motion } from "framer-motion"
   // https://www.youtube.com/watch?v=qJt-FtzJ5fo
 
 import NavBar from './NavBar'
-import { navSlide } from '/Users/azarnighian/Desktop/az-restaurant/src/navBarStuff.js'
-import { changeNavBar } from '/Users/azarnighian/Desktop/az-restaurant/src/landingNavBarStuff.js'
 
 import Footer from './Footer'
 
@@ -46,15 +44,7 @@ const options = {
   }
 };
 
-const Gallery = () => {
-  useEffect(() => {
-    window.removeEventListener('scroll', changeNavBar);
-    navSlide();
-    return () => {      
-      document.body.classList.remove('stopScrolling');
-    };
-  });
-  
+const Gallery = () => {  
   return (
     <motion.div 
       initial={{ opacity: .7 }}

@@ -3,7 +3,7 @@ import React, { useEffect } from 'react';
 import { motion } from "framer-motion"
   // https://www.youtube.com/watch?v=qJt-FtzJ5fo
 
-import HomeNavBar from './HomeNavBar'
+import NavBar from '/Users/azarnighian/Desktop/az-restaurant/src/components/NavBar.js'
 import HomeLanding from './HomeLanding'
 import HomeAbout from './HomeAbout'
 import HomeMenu from './HomeMenu'
@@ -12,17 +12,16 @@ import HomeInfo from './HomeInfo'
 
 import Footer from '/Users/azarnighian/Desktop/az-restaurant/src/components/Footer.js'
 
-import { changeNavBar, landingNavSlide } from '/Users/azarnighian/Desktop/az-restaurant/src/landingNavBarStuff.js'
+import { changeLandingNavBar } from '/Users/azarnighian/Desktop/az-restaurant/src/navBarStuff.js'
 
 const Home = () => {    
   useEffect(() => {
     // https://reactjs.org/docs/hooks-effect.html
-    const wrapperDiv = document.querySelector('.wrapper');    
-    wrapperDiv.addEventListener('scroll', changeNavBar);
-    landingNavSlide();
+    document.querySelector('.navBar').className += " landingNav";
+    document.querySelector('.wrapper').addEventListener('scroll', changeLandingNavBar);
     return () => {
-      document.body.classList.remove('stopScrolling');
-      wrapperDiv.removeEventListener('scroll', changeNavBar);      
+      document.querySelector('.navBar').className = "navBar";
+      document.querySelector('.wrapper').removeEventListener('scroll', changeLandingNavBar);
     };
   });
   
@@ -33,7 +32,7 @@ const Home = () => {
       exit={{ opacity: .7 }} 
     >
       <div className="wrapper">  
-        <HomeNavBar />
+        <NavBar />
         <HomeLanding />
         <HomeAbout />
         <HomeMenu />
