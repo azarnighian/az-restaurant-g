@@ -4,7 +4,7 @@ import { motion } from "framer-motion"
   // https://www.youtube.com/watch?v=qJt-FtzJ5fo
 
 import NavBar from './NavBar'
-import headingImage from '/Users/azarnighian/Desktop/az-restaurant/src/components/Home/homeImages/pexels-anna-tis-6341164.jpg';
+import headingImage from '/Users/azarnighian/Desktop/az-restaurant/src/components/galleryImages/namnso-ukpanah-5izEn-YcRbI-unsplash.jpg';
 import Footer from './Footer'
 
 const Contact = () => {  
@@ -18,7 +18,7 @@ const Contact = () => {
         <NavBar />
         <div className="pagesContainer">        
           <div className="headingContainer">
-            <img src={headingImage} alt="heading"></img>
+            <img src={headingImage} alt="heading" class="contactHeadingImg"></img>
             <h1>Location, Contact & Hours</h1>
           </div>
 

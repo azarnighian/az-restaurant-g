@@ -7,7 +7,7 @@ import NavBar from './NavBar'
 
 import Footer from './Footer'
 
-import headingImage from '/Users/azarnighian/Desktop/az-restaurant/src/components/Home/homeImages/pexels-anna-tis-6341164.jpg';
+import headingImage from '/Users/azarnighian/Desktop/az-restaurant/src/components/galleryImages/pexels-life-of-pix-67468.jpg';
 import image1 from './galleryImages/pexels-asad-photo-maldives-1449773.jpg';
 import image2 from './galleryImages/pexels-daria-shevtsova-704982.jpg';
 import image3 from './galleryImages/pexels-de-lemster-krant-2894275.jpg';
@@ -19,7 +19,7 @@ import image8 from './galleryImages/pexels-ruslan-khmelevsky-5392152.jpg';
 import image9 from './galleryImages/pexels-skitterphoto-3498.jpg';
 import image10 from './galleryImages/pexels-skitterphoto-9315.jpg';
 import image11 from './galleryImages/pexels-tom-balabaud-1579715.jpg';
-import image12 from './galleryImages/pexels-waldemar-brandt-2290070.jpg';
+import image12 from './galleryImages/namnso-ukpanah-5izEn-YcRbI-unsplash.jpg';
 
 // https://github.com/michelecocuccio/simple-react-lightbox
 import { SRLWrapper } from "simple-react-lightbox";
@@ -55,7 +55,7 @@ const Gallery = () => {
         <NavBar />
         <div className="pagesContainer">                  
             <div className="headingContainer">
-              <img src={headingImage} alt="heading"></img>
+              <img src={headingImage} alt="heading" class="galleryHeadingImg"></img>
               <h1>Gallery</h1>
             </div>        
             <div className="galleryContainer">

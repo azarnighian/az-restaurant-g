@@ -294,6 +294,9 @@ button, a {
 }
 
                               /* Gallery.js */
+.galleryHeadingImg{
+  object-position: center 90%;
+}                              
 .galleryContainer div {
   display: flex;
   flex-direction: column;
@@ -400,6 +403,11 @@ button, a {
   }
 }
 
+                              /* Contact.js */
+.contactHeadingImg{
+  object-position: center 70%;
+} 
+                              /* Footer.js */
 footer {
   padding: 1.5em;
   background-color: grey;
