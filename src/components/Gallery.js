@@ -46,10 +46,10 @@ const options = {
 
 const Gallery = () => {  
   return (
-    <motion.div 
-      initial={{ opacity: .7 }}
-      animate={{ opacity: 1 }} 
-      exit={{ opacity: .7 }} 
+    <motion.div       
+      // initial={{ opacity: .9 }}
+      // animate={{ opacity: 1 }} 
+      exit={{ opacity: 0 }} 
     >
       <div className="wrapper">
         <NavBar />

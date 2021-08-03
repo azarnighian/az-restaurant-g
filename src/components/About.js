@@ -9,10 +9,10 @@ import Footer from './Footer'
 
 const About = () => {  
   return (    
-    <motion.div 
-      initial={{ opacity: .7 }}
-      animate={{ opacity: 1 }} 
-      exit={{ opacity: .7 }} 
+    <motion.div       
+      // initial={{ opacity: 1 }}
+      // animate={{ opacity: 1 }} 
+      exit={{ opacity: 0 }} 
     >
       <div className="wrapper">
         <NavBar />

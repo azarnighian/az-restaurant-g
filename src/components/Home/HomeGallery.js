@@ -5,9 +5,9 @@ import image2 from '/Users/azarnighian/Desktop/az-restaurant/src/components/gall
 
 const HomeGallery = () => {
   return (
-    <div className="container beigeBackground">        
+    <div className="container homeGalleryContainer">        
         <h1>Gallery</h1>
-        <div className="homeGalleryContainer">
+        <div className="homeGalleryImgsContainer">
             <img src={image1} alt="Homepage Gallery 1"></img>
             <img src={image2} alt="Homepage Gallery 2"></img>            
         </div>        

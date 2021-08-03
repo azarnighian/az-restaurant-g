@@ -20,10 +20,10 @@ function App() {
       <Router>      
         <ScrollToTop />        
         <Route path="/" exact component={Home} />
-        <Route path="/about" exact component={About} />
-        <Route path="/menu" exact component={Menu} />
-        <Route path="/gallery" exact component={Gallery} />
-        <Route path="/contact" exact component={Contact} />        
+        <Route path="/about" component={About} />
+        <Route path="/menu" component={Menu} />
+        <Route path="/gallery" component={Gallery} />
+        <Route path="/contact" component={Contact} />        
       </Router>
     </AnimatePresence>      
   );

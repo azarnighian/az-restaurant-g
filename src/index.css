@@ -128,7 +128,9 @@ button, a {
                               /* HomeMenu.js */
 .splitContainer{
   display: flex;
-  flex-direction: column;  
+  flex-direction: column; 
+  background-color: var(--Beige);
+  color: white; 
 } 
 
 .splitContainer img {
@@ -144,7 +146,13 @@ button, a {
   padding: 3em 2em;
   text-align: center;
 }
-.menuTextContainer h1 {
+
+.menuTextContainer .linkButton {
+  border-color: white;
+  color: white;
+}
+.menuTextContainer .linkButton:hover {
+  background-color: white;
   color: var(--Beige);
 }
 
@@ -169,50 +177,36 @@ button, a {
 }
 
                             /* HomeGallery.js */
-.beigeBackground {
-  background-color: #dfbd8e; 
+.homeGalleryContainer {  
   padding: 4em 2em; 
 }                            
-.beigeBackground * {
-  color: white;
-}
-.beigeBackground h1 {
-  color: white;
-}
-.homeGalleryContainer {
+.homeGalleryImgsContainer {
   display: flex;
   flex-direction: column;
   padding-top: 4em;
   padding-bottom: 3em;
 }
-.homeGalleryContainer img {
+.homeGalleryImgsContainer img {
   width: 100%;
   margin-bottom: 3em;
   object-fit: cover;
 }
-.beigeBackground .linkButton {
-  border-color: white;
-}
-.beigeBackground .linkButton:hover {
-  background-color: white;
-  color: var(--Beige);
-}
 
 @media screen and (min-width: 500px) {
-  .beigeBackground {
+  .homeGalleryContainer {
     padding: 5em;
   }
 }
 @media screen and (min-width: 600px) {
-  .beigeBackground {
+  .homeGalleryContainer {
     padding: 7em;
   }
 }
 @media screen and (min-width: 768px) {
-  .beigeBackground {
+  .homeGalleryContainer {
     padding: 4em 0;
   }
-  .homeGalleryContainer {
+  .homeGalleryImgsContainer {
     flex-direction: row;
     padding: 4em 0;   
     padding-left: 2em;
@@ -220,19 +214,22 @@ button, a {
     justify-content: center;
     align-items: initial; 
   }
-  .homeGalleryContainer img {
-    width: 35%;
+  .homeGalleryImgsContainer img {
+    width: 30%;
     margin-bottom: 0;
     margin-right: 2em;
-      /* match with padding left of homeGalleryContainer */
+      /* match with padding left of homeGalleryImgsContainer */
   }    
 }
 
                               /* HomeInfo.js */                           
 .homeInfoContainer {
+  background-color: var(--Beige);
+  color: white;
   padding: 3em;
 }                            
 .homeInfoContainer h1 {
+  color: white;
   margin-bottom: 1em;
 }
 .homeInfoContainer p {
