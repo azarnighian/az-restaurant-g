@@ -26,11 +26,7 @@ const Home = () => {
   });
   
   return (
-    <motion.div     
-      // initial={{ opacity: 1 }}
-      // animate={{ opacity: 1 }} 
-      exit={{ opacity: 0 }} 
-    >
+    <motion.div exit={{ opacity: 0 }}>
       <div className="wrapper">  
         <NavBar />
         <HomeLanding />

@@ -9,11 +9,7 @@ import Footer from './Footer'
 
 const Menu = () => {  
   return (
-    <motion.div       
-      // initial={{ opacity: .9 }}
-      // animate={{ opacity: 1 }} 
-      exit={{ opacity: 0 }} 
-    >
+    <motion.div exit={{ opacity: 0 }}>
       <div className="wrapper">      
         <NavBar />
         <div className="pagesContainer">                  
