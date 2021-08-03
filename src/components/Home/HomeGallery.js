@@ -1,7 +1,7 @@
 import { Link } from 'react-router-dom'
 
-import image1 from '/Users/azarnighian/Desktop/az-restaurant/src/components/galleryImages/pexels-daria-shevtsova-704982.jpg';
-import image2 from '/Users/azarnighian/Desktop/az-restaurant/src/components/galleryImages/pexels-maria-orlova-4947288.jpg';
+import image1 from '/Users/azarnighian/Desktop/az-restaurant/src/components/galleryImages/namnso-ukpanah-5izEn-YcRbI-unsplash.jpg';
+import image2 from '/Users/azarnighian/Desktop/az-restaurant/src/components/Home/homeImages/pexels-anna-tis-6341164.jpg';
 
 const HomeGallery = () => {
   return (

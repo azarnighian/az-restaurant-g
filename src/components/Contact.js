@@ -14,7 +14,7 @@ const Contact = () => {
         <NavBar />
         <div className="pagesContainer">        
           <div className="headingContainer">
-            <img src={headingImage} alt="heading" class="contactHeadingImg"></img>
+            <img src={headingImage} alt="heading" class="positionedHeadingImg"></img>
             <h1>Location, Contact & Hours</h1>
           </div>
 

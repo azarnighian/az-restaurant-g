@@ -294,8 +294,8 @@ button, a {
 }
 
                               /* Gallery.js */
-.galleryHeadingImg{
-  object-position: center 90%;
+.positionedHeadingImg{
+  object-position: center 70%;
 }                              
 .galleryContainer div {
   display: flex;
@@ -402,11 +402,7 @@ button, a {
     margin-right: 3em;
   }
 }
-
-                              /* Contact.js */
-.contactHeadingImg{
-  object-position: center 70%;
-} 
+                              
                               /* Footer.js */
 footer {
   padding: 1.5em;

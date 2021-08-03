@@ -51,7 +51,7 @@ const Gallery = () => {
         <NavBar />
         <div className="pagesContainer">                  
             <div className="headingContainer">
-              <img src={headingImage} alt="heading" class="galleryHeadingImg"></img>
+              <img src={headingImage} alt="heading" class="positionedHeadingImg"></img>
               <h1>Gallery</h1>
             </div>        
             <div className="galleryContainer">
