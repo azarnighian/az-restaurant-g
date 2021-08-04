@@ -10,7 +10,7 @@ import reportWebVitals from './reportWebVitals';
 ReactDOM.render(
   <React.StrictMode>
     <SimpleReactLightbox>
-      <Router>
+      <Router basename={process.env.PUBLIC_URL}>
         <App />
       </Router>      
     </SimpleReactLightbox>    
