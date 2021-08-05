@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/az-restaurant-g/static/css/main.0ed6caa8.chunk.css",
-    "main.js": "/az-restaurant-g/static/js/main.c2a72c03.chunk.js",
-    "main.js.map": "/az-restaurant-g/static/js/main.c2a72c03.chunk.js.map",
+    "main.css": "/az-restaurant-g/static/css/main.641f6bf2.chunk.css",
+    "main.js": "/az-restaurant-g/static/js/main.4d566cf4.chunk.js",
+    "main.js.map": "/az-restaurant-g/static/js/main.4d566cf4.chunk.js.map",
     "runtime-main.js": "/az-restaurant-g/static/js/runtime-main.79da3095.js",
     "runtime-main.js.map": "/az-restaurant-g/static/js/runtime-main.79da3095.js.map",
-    "static/js/2.71f197e9.chunk.js": "/az-restaurant-g/static/js/2.71f197e9.chunk.js",
-    "static/js/2.71f197e9.chunk.js.map": "/az-restaurant-g/static/js/2.71f197e9.chunk.js.map",
+    "static/js/2.69898c95.chunk.js": "/az-restaurant-g/static/js/2.69898c95.chunk.js",
+    "static/js/2.69898c95.chunk.js.map": "/az-restaurant-g/static/js/2.69898c95.chunk.js.map",
     "static/js/3.f9043ff5.chunk.js": "/az-restaurant-g/static/js/3.f9043ff5.chunk.js",
     "static/js/3.f9043ff5.chunk.js.map": "/az-restaurant-g/static/js/3.f9043ff5.chunk.js.map",
     "index.html": "/az-restaurant-g/index.html",
-    "static/css/main.0ed6caa8.chunk.css.map": "/az-restaurant-g/static/css/main.0ed6caa8.chunk.css.map",
-    "static/js/2.71f197e9.chunk.js.LICENSE.txt": "/az-restaurant-g/static/js/2.71f197e9.chunk.js.LICENSE.txt",
+    "static/css/main.641f6bf2.chunk.css.map": "/az-restaurant-g/static/css/main.641f6bf2.chunk.css.map",
+    "static/js/2.69898c95.chunk.js.LICENSE.txt": "/az-restaurant-g/static/js/2.69898c95.chunk.js.LICENSE.txt",
     "static/media/namnso-ukpanah-5izEn-YcRbI-unsplash.03d9cd2d.jpg": "/az-restaurant-g/static/media/namnso-ukpanah-5izEn-YcRbI-unsplash.03d9cd2d.jpg",
     "static/media/pexels-anna-tis-6341164.b3f277c3.jpg": "/az-restaurant-g/static/media/pexels-anna-tis-6341164.b3f277c3.jpg",
     "static/media/pexels-asad-photo-maldives-1449773.ea768e84.jpg": "/az-restaurant-g/static/media/pexels-asad-photo-maldives-1449773.ea768e84.jpg",
@@ -30,8 +30,8 @@
   },
   "entrypoints": [
     "static/js/runtime-main.79da3095.js",
-    "static/js/2.71f197e9.chunk.js",
-    "static/css/main.0ed6caa8.chunk.css",
-    "static/js/main.c2a72c03.chunk.js"
+    "static/js/2.69898c95.chunk.js",
+    "static/css/main.641f6bf2.chunk.css",
+    "static/js/main.4d566cf4.chunk.js"
   ]
 }
