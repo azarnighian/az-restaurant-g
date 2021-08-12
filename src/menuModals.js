@@ -1,3 +1,5 @@
+// https://www.w3schools.com/howto/howto_css_modals.asp
+
 export const menuModals = () => {
     // Get the modal
     var modal = document.getElementById("menuModal");
