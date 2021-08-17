@@ -1,7 +1,7 @@
 ## Updating steps:
 (https://create-react-app.dev/docs/deployment/#github-pages)
-1. Open developer server with 'npm start'
-2. Make changes, then gaa, gcm, gp
+1. Open developer server with 'npm start'.
+2. Make changes, then gaa, gcm, gp.
 3. Run 'npm run deploy' to deploy to GitHub Pages.
 
 
