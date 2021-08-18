@@ -56,19 +56,43 @@ const Gallery = () => {
             </div>        
             <div className="galleryContainer">
               <SRLWrapper options={options}>
-                <img src={image1} alt="Gallery 1"></img>
-                <img src={image2} alt="Gallery 2"></img>
-                <img src={image3} alt="Gallery 3"></img>
-                <img src={image4} alt="Gallery 4"></img>
-                <img src={image5} alt="Gallery 5"></img>
-                <img src={image6} alt="Gallery 6"></img>
-                <img src={image7} alt="Gallery 7"></img>
-                <img src={image8} alt="Gallery 8"></img>
-                <img src={image9} alt="Gallery 9"></img>
-                <img src={image10} alt="Gallery 10"></img>
-                <img src={image11} alt="Gallery 11"></img>
-                <img src={image12} alt="Gallery 12"></img>
-              </SRLWrapper>          
+                <div className="cell">
+                  <img src={image1} alt="Gallery 1"></img>
+                </div>
+                <div className="cell">
+                  <img src={image2} alt="Gallery 2"></img>
+                </div>
+                <div className="cell">
+                  <img src={image3} alt="Gallery 3"></img>
+                </div>
+                <div className="cell">
+                  <img src={image4} alt="Gallery 4"></img>
+                </div>
+                <div className="cell">
+                  <img src={image5} alt="Gallery 5"></img>
+                </div>
+                <div className="cell">
+                  <img src={image6} alt="Gallery 6"></img>
+                </div>
+                <div className="cell">
+                  <img src={image7} alt="Gallery 7"></img>
+                </div>
+                <div className="cell">
+                  <img src={image8} alt="Gallery 8"></img>
+                </div>
+                <div className="cell">
+                  <img src={image9} alt="Gallery 9"></img>
+                </div>
+                <div className="cell">
+                  <img src={image10} alt="Gallery 10"></img>
+                </div>
+                <div className="cell">
+                  <img src={image11} alt="Gallery 11"></img>
+                </div>
+                <div className="cell">
+                  <img src={image12} alt="Gallery 12"></img>
+                </div>
+              </SRLWrapper>                        
             </div>      
         </div>
         <Footer />
