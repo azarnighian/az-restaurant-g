@@ -24,10 +24,7 @@ import image12 from './galleryImages/namnso-ukpanah-5izEn-YcRbI-unsplash.jpg';
 const Menu = () => { 
   useEffect(() => {
     // https://reactjs.org/docs/hooks-effect.html
-    menuModals();
-    // return () => {
-    //   // document.querySelector('.wrapper').removeEventListener('scroll', changeLandingNavBar);
-    // };
+    menuModals();    
   });
   
   return (
@@ -333,54 +330,54 @@ const Menu = () => {
                 <img src={image10} alt="Menu Item 10" id="9"></img>
                 <img src={image11} alt="Menu Item 11" id="10"></img>
                 <img src={image12} alt="Menu Item 12" id="11"></img>
-                <img src={image1} alt="Menu Item 1" id="0"></img>
-                <img src={image2} alt="Menu Item 2" id="1"></img>
-                <img src={image3} alt="Menu Item 3" id="2"></img>
-                <img src={image4} alt="Menu Item 4" id="3"></img>
-                <img src={image5} alt="Menu Item 5" id="4"></img>
-                <img src={image6} alt="Menu Item 6" id="5"></img>
-                <img src={image7} alt="Menu Item 7" id="6"></img>
-                <img src={image8} alt="Menu Item 8" id="7"></img>
-                <img src={image9} alt="Menu Item 9" id="8"></img>
-                <img src={image10} alt="Menu Item 10" id="9"></img>
-                <img src={image11} alt="Menu Item 11" id="10"></img>
-                <img src={image12} alt="Menu Item 12" id="11"></img>
-                <img src={image1} alt="Menu Item 1" id="12"></img>
-                <img src={image2} alt="Menu Item 2" id="13"></img>
-                <img src={image3} alt="Menu Item 3" id="14"></img>
-                <img src={image4} alt="Menu Item 4" id="15"></img>
-                <img src={image5} alt="Menu Item 5" id="16"></img>
-                <img src={image6} alt="Menu Item 6" id="17"></img>
-                <img src={image7} alt="Menu Item 7" id="18"></img>
-                <img src={image8} alt="Menu Item 8" id="19"></img>
-                <img src={image9} alt="Menu Item 9" id="20"></img>
-                <img src={image10} alt="Menu Item 10" id="21"></img>
-                <img src={image11} alt="Menu Item 11" id="22"></img>
-                <img src={image12} alt="Menu Item 12" id="23"></img>
-                <img src={image1} alt="Menu Item 1" id="24"></img>
-                <img src={image2} alt="Menu Item 2" id="25"></img>
-                <img src={image3} alt="Menu Item 3" id="26"></img>
-                <img src={image4} alt="Menu Item 4" id="27"></img>
-                <img src={image5} alt="Menu Item 5" id="28"></img>
-                <img src={image6} alt="Menu Item 6" id="29"></img>
-                <img src={image7} alt="Menu Item 7" id="30"></img>
-                <img src={image8} alt="Menu Item 8" id="31"></img>
-                <img src={image9} alt="Menu Item 9" id="32"></img>
-                <img src={image10} alt="Menu Item 10" id="33"></img>
-                <img src={image11} alt="Menu Item 11" id="34"></img>
-                <img src={image12} alt="Menu Item 12" id="35"></img>
-                <img src={image1} alt="Menu Item 1" id="36"></img>
-                <img src={image2} alt="Menu Item 2" id="37"></img>
-                <img src={image3} alt="Menu Item 3" id="38"></img>
-                <img src={image4} alt="Menu Item 4" id="39"></img>
-                <img src={image5} alt="Menu Item 5" id="40"></img>
-                <img src={image6} alt="Menu Item 6" id="41"></img>
-                <img src={image7} alt="Menu Item 7" id="42"></img>
-                <img src={image8} alt="Menu Item 8" id="43"></img>
-                <img src={image9} alt="Menu Item 9" id="44"></img>
-                <img src={image10} alt="Menu Item 10" id="45"></img>
-                <img src={image11} alt="Menu Item 11" id="46"></img>
-                <img src={image12} alt="Menu Item 12" id="47"></img>
+                <img src={image1} alt="Menu Item 13" id="12"></img>
+                <img src={image2} alt="Menu Item 14" id="13"></img>
+                <img src={image3} alt="Menu Item 15" id="14"></img>
+                <img src={image4} alt="Menu Item 16" id="15"></img>
+                <img src={image5} alt="Menu Item 17" id="16"></img>
+                <img src={image6} alt="Menu Item 18" id="17"></img>
+                <img src={image7} alt="Menu Item 19" id="18"></img>
+                <img src={image8} alt="Menu Item 20" id="19"></img>
+                <img src={image9} alt="Menu Item 21" id="20"></img>
+                <img src={image10} alt="Menu Item 22" id="21"></img>
+                <img src={image11} alt="Menu Item 23" id="22"></img>
+                <img src={image12} alt="Menu Item 24" id="23"></img>
+                <img src={image1} alt="Menu Item 25" id="24"></img>
+                <img src={image2} alt="Menu Item 26" id="25"></img>
+                <img src={image3} alt="Menu Item 27" id="26"></img>
+                <img src={image4} alt="Menu Item 28" id="27"></img>
+                <img src={image5} alt="Menu Item 29" id="28"></img>
+                <img src={image6} alt="Menu Item 30" id="29"></img>
+                <img src={image7} alt="Menu Item 31" id="30"></img>
+                <img src={image8} alt="Menu Item 32" id="31"></img>
+                <img src={image9} alt="Menu Item 33" id="32"></img>
+                <img src={image10} alt="Menu Item 34" id="33"></img>
+                <img src={image11} alt="Menu Item 35" id="34"></img>
+                <img src={image12} alt="Menu Item 36" id="35"></img>
+                <img src={image1} alt="Menu Item 37" id="36"></img>
+                <img src={image2} alt="Menu Item 38" id="37"></img>
+                <img src={image3} alt="Menu Item 39" id="38"></img>
+                <img src={image4} alt="Menu Item 40" id="39"></img>
+                <img src={image5} alt="Menu Item 41" id="40"></img>
+                <img src={image6} alt="Menu Item 42" id="41"></img>
+                <img src={image7} alt="Menu Item 43" id="42"></img>
+                <img src={image8} alt="Menu Item 44" id="43"></img>
+                <img src={image9} alt="Menu Item 45" id="44"></img>
+                <img src={image10} alt="Menu Item 46" id="45"></img>
+                <img src={image11} alt="Menu Item 47" id="46"></img>
+                <img src={image12} alt="Menu Item 48" id="47"></img>
+                <img src={image1} alt="Menu Item 49" id="48"></img>
+                <img src={image2} alt="Menu Item 50" id="49"></img>
+                <img src={image3} alt="Menu Item 51" id="50"></img>
+                <img src={image4} alt="Menu Item 52" id="51"></img>
+                <img src={image5} alt="Menu Item 53" id="52"></img>
+                <img src={image6} alt="Menu Item 54" id="53"></img>
+                <img src={image7} alt="Menu Item 55" id="54"></img>
+                <img src={image8} alt="Menu Item 56" id="55"></img>
+                <img src={image9} alt="Menu Item 57" id="56"></img>
+                <img src={image10} alt="Menu Item 58" id="57"></img>
+                <img src={image11} alt="Menu Item 59" id="58"></img>
+                <img src={image12} alt="Menu Item 60" id="59"></img>
               </div>
             </div>
         </div>

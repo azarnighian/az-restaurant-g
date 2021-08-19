@@ -20,7 +20,6 @@ const Home = () => {
     document.querySelector('.navBar').className += " landingNav";
     document.querySelector('.wrapper').addEventListener('scroll', changeLandingNavBar);
     return () => {
-      // document.querySelector('.navBar').className = "navBar";
       document.querySelector('.wrapper').removeEventListener('scroll', changeLandingNavBar);
     };
   });
