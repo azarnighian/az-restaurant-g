@@ -10,7 +10,7 @@ import reportWebVitals from './reportWebVitals';
 ReactDOM.render(
   <React.StrictMode>
     <SimpleReactLightbox>
-      <Router basename={process.env.PUBLIC_URL}>
+      <Router basename="/az-restaurant-g">
         <App />
       </Router>      
     </SimpleReactLightbox>    
