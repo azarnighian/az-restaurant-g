@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/az-restaurant-g/static/css/main.d91783d1.chunk.css",
+    "main.css": "/az-restaurant-g/static/css/main.3225a1ac.chunk.css",
     "main.js": "/az-restaurant-g/static/js/main.8ef7c2a9.chunk.js",
     "main.js.map": "/az-restaurant-g/static/js/main.8ef7c2a9.chunk.js.map",
     "runtime-main.js": "/az-restaurant-g/static/js/runtime-main.79da3095.js",
@@ -10,7 +10,7 @@
     "static/js/3.f9043ff5.chunk.js": "/az-restaurant-g/static/js/3.f9043ff5.chunk.js",
     "static/js/3.f9043ff5.chunk.js.map": "/az-restaurant-g/static/js/3.f9043ff5.chunk.js.map",
     "index.html": "/az-restaurant-g/index.html",
-    "static/css/main.d91783d1.chunk.css.map": "/az-restaurant-g/static/css/main.d91783d1.chunk.css.map",
+    "static/css/main.3225a1ac.chunk.css.map": "/az-restaurant-g/static/css/main.3225a1ac.chunk.css.map",
     "static/js/2.69898c95.chunk.js.LICENSE.txt": "/az-restaurant-g/static/js/2.69898c95.chunk.js.LICENSE.txt",
     "static/media/namnso-ukpanah-5izEn-YcRbI-unsplash.03d9cd2d.jpg": "/az-restaurant-g/static/media/namnso-ukpanah-5izEn-YcRbI-unsplash.03d9cd2d.jpg",
     "static/media/pexels-anna-tis-6341164.b3f277c3.jpg": "/az-restaurant-g/static/media/pexels-anna-tis-6341164.b3f277c3.jpg",
@@ -31,7 +31,7 @@
   "entrypoints": [
     "static/js/runtime-main.79da3095.js",
     "static/js/2.69898c95.chunk.js",
-    "static/css/main.d91783d1.chunk.css",
+    "static/css/main.3225a1ac.chunk.css",
     "static/js/main.8ef7c2a9.chunk.js"
   ]
 }
