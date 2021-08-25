@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/az-restaurant-g/static/css/main.8dedb97b.chunk.css",
-    "main.js": "/az-restaurant-g/static/js/main.3901e935.chunk.js",
-    "main.js.map": "/az-restaurant-g/static/js/main.3901e935.chunk.js.map",
+    "main.css": "/az-restaurant-g/static/css/main.525a7f67.chunk.css",
+    "main.js": "/az-restaurant-g/static/js/main.9aa13837.chunk.js",
+    "main.js.map": "/az-restaurant-g/static/js/main.9aa13837.chunk.js.map",
     "runtime-main.js": "/az-restaurant-g/static/js/runtime-main.79da3095.js",
     "runtime-main.js.map": "/az-restaurant-g/static/js/runtime-main.79da3095.js.map",
     "static/js/2.69898c95.chunk.js": "/az-restaurant-g/static/js/2.69898c95.chunk.js",
@@ -10,14 +10,14 @@
     "static/js/3.f9043ff5.chunk.js": "/az-restaurant-g/static/js/3.f9043ff5.chunk.js",
     "static/js/3.f9043ff5.chunk.js.map": "/az-restaurant-g/static/js/3.f9043ff5.chunk.js.map",
     "index.html": "/az-restaurant-g/index.html",
-    "static/css/main.8dedb97b.chunk.css.map": "/az-restaurant-g/static/css/main.8dedb97b.chunk.css.map",
+    "static/css/main.525a7f67.chunk.css.map": "/az-restaurant-g/static/css/main.525a7f67.chunk.css.map",
     "static/js/2.69898c95.chunk.js.LICENSE.txt": "/az-restaurant-g/static/js/2.69898c95.chunk.js.LICENSE.txt",
     "static/media/namnso-ukpanah-5izEn-YcRbI-unsplash.03d9cd2d.jpg": "/az-restaurant-g/static/media/namnso-ukpanah-5izEn-YcRbI-unsplash.03d9cd2d.jpg",
-    "static/media/pexels-anna-tis-6341164.b3f277c3.jpg": "/az-restaurant-g/static/media/pexels-anna-tis-6341164.b3f277c3.jpg",
+    "static/media/index.css": "/az-restaurant-g/static/media/pexels-anna-tis-6341164.b3f277c3.jpg",
     "static/media/pexels-asad-photo-maldives-1449773.ea768e84.jpg": "/az-restaurant-g/static/media/pexels-asad-photo-maldives-1449773.ea768e84.jpg",
     "static/media/pexels-daria-shevtsova-704982.431180b6.jpg": "/az-restaurant-g/static/media/pexels-daria-shevtsova-704982.431180b6.jpg",
     "static/media/pexels-de-lemster-krant-2894275.da40d7cf.jpg": "/az-restaurant-g/static/media/pexels-de-lemster-krant-2894275.da40d7cf.jpg",
-    "static/media/index.css": "/az-restaurant-g/static/media/pexels-emre-can-acer-2079438.d5e7ba8c.jpg",
+    "static/media/pexels-emre-can-acer-2079438.d5e7ba8c.jpg": "/az-restaurant-g/static/media/pexels-emre-can-acer-2079438.d5e7ba8c.jpg",
     "static/media/pexels-life-of-pix-67468.84e26c5e.jpg": "/az-restaurant-g/static/media/pexels-life-of-pix-67468.84e26c5e.jpg",
     "static/media/pexels-maria-orlova-4947288.fe6fcaa2.jpg": "/az-restaurant-g/static/media/pexels-maria-orlova-4947288.fe6fcaa2.jpg",
     "static/media/pexels-pixabay-265920.ca207eeb.jpg": "/az-restaurant-g/static/media/pexels-pixabay-265920.ca207eeb.jpg",
@@ -31,7 +31,7 @@
   "entrypoints": [
     "static/js/runtime-main.79da3095.js",
     "static/js/2.69898c95.chunk.js",
-    "static/css/main.8dedb97b.chunk.css",
-    "static/js/main.3901e935.chunk.js"
+    "static/css/main.525a7f67.chunk.css",
+    "static/js/main.9aa13837.chunk.js"
   ]
 }
