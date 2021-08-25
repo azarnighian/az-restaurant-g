@@ -6,6 +6,7 @@ import { navBurgerClick } from '/Users/azarnighian/Desktop/az-restaurant/src/nav
 
 const NavBar = () => {   
   useEffect(() => {
+    // https://reactjs.org/docs/hooks-effect.html
     navBurgerClick();
   });
 

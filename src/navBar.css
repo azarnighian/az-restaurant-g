@@ -25,6 +25,7 @@
 }
 .burgerClicked .logo {
   color: var(--Beige) !important;
+  transition: color var(--transitionTime);
 }
 .burgerClicked .burger div {
   background-color: grey !important;
@@ -102,6 +103,7 @@
 
 .logo {
   color: var(--Beige);
+  transition: color var(--transitionTime);
 }
 
 @media screen and (min-width: 768px){  
