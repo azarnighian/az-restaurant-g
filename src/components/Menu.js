@@ -4,22 +4,22 @@ import { motion } from "framer-motion"
   // https://www.youtube.com/watch?v=qJt-FtzJ5fo
 
 import NavBar from './NavBar'
-import headingImage from '/Users/azarnighian/Desktop/az-restaurant/src/components/galleryImages/pexels-daria-shevtsova-704982.jpg';
+import headingImage from '/Users/azarnighian/Desktop/az-restaurant/src/components/Images/pexels-daria-shevtsova-704982.jpg';
 import Footer from './Footer'
 
 import { menuModals } from '/Users/azarnighian/Desktop/az-restaurant/src/menuModals.js'
-import image1 from './galleryImages/pexels-asad-photo-maldives-1449773.jpg';
-import image2 from './galleryImages/pexels-daria-shevtsova-704982.jpg';
-import image3 from './galleryImages/pexels-de-lemster-krant-2894275.jpg';
-import image4 from './galleryImages/pexels-life-of-pix-67468.jpg';
-import image5 from './galleryImages/pexels-maria-orlova-4947288.jpg';
-import image6 from './galleryImages/pexels-pixabay-265920.jpg';
-import image7 from './galleryImages/pexels-pixabay-276720.jpg';
-import image8 from './galleryImages/pexels-ruslan-khmelevsky-5392152.jpg';
-import image9 from './galleryImages/pexels-skitterphoto-3498.jpg';
-import image10 from './galleryImages/pexels-skitterphoto-9315.jpg';
-import image11 from './galleryImages/pexels-tom-balabaud-1579715.jpg';
-import image12 from './galleryImages/namnso-ukpanah-5izEn-YcRbI-unsplash.jpg';
+import image1 from './Images/pexels-asad-photo-maldives-1449773.jpg';
+import image2 from './Images/pexels-daria-shevtsova-704982.jpg';
+import image3 from './Images/pexels-de-lemster-krant-2894275.jpg';
+import image4 from './Images/pexels-life-of-pix-67468.jpg';
+import image5 from './Images/pexels-maria-orlova-4947288.jpg';
+import image6 from './Images/pexels-pixabay-265920.jpg';
+import image7 from './Images/pexels-pixabay-276720.jpg';
+import image8 from './Images/pexels-ruslan-khmelevsky-5392152.jpg';
+import image9 from './Images/pexels-skitterphoto-3498.jpg';
+import image10 from './Images/pexels-skitterphoto-9315.jpg';
+import image11 from './Images/pexels-tom-balabaud-1579715.jpg';
+import image12 from './Images/namnso-ukpanah-5izEn-YcRbI-unsplash.jpg';
 
 const Menu = () => { 
   useEffect(() => {

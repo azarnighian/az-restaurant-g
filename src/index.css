@@ -65,7 +65,7 @@ button, a {
   align-items: center;
   
   background-image: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)),
-                    url('/src/components/Home/homeImages/pexels-emre-can-acer-2079438.jpg');
+                    url('/Users/azarnighian/Desktop/az-restaurant/src/components/Home/homeImages/pexels-anna-tis-6341164.jpg');
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -88,7 +88,8 @@ button, a {
 }
 .landingContainer h2 {
   font-size: clamp(1rem, 0.9892rem + 0.0693vw, 1.1rem);
-  font-weight: 300;
+    /* https://css-tricks.com/linearly-scale-font-size-with-css-clamp-based-on-the-viewport/#for-those-who-dont-mind-that-edge-case */
+  font-weight: 400;
   width: 85%;
   max-width: 45ch;
   line-height: 1.6;

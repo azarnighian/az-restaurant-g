@@ -4,7 +4,7 @@ import { motion } from "framer-motion"
   // https://www.youtube.com/watch?v=qJt-FtzJ5fo
 
 import NavBar from './NavBar'
-import headingImage from '/Users/azarnighian/Desktop/az-restaurant/src/components/galleryImages/namnso-ukpanah-5izEn-YcRbI-unsplash.jpg';
+import headingImage from '/Users/azarnighian/Desktop/az-restaurant/src/components/Images/namnso-ukpanah-5izEn-YcRbI-unsplash.jpg';
 import Footer from './Footer'
 
 const Contact = () => {  

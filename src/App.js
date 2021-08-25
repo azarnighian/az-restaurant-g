@@ -19,15 +19,15 @@ function App() {
   
   return (
     <AnimatePresence exitBeforeEnter>      
-        <Switch location={location} key={location.pathname}>      
-          {/* <ScrollToTop />         */}
-          <Route exact path="/" component={Home} />
-          <Route path="/about" component={About} />
-          <Route path="/menu" component={Menu} />
-          <Route path="/gallery" component={Gallery} />
-          <Route path="/contact" component={Contact} />        
-        </Switch>
-      </AnimatePresence>            
+      <Switch location={location} key={location.pathname}>      
+        {/* <ScrollToTop />         */}
+        <Route exact path="/" component={Home} />
+        <Route path="/about" component={About} />
+        <Route path="/menu" component={Menu} />
+        <Route path="/gallery" component={Gallery} />
+        <Route path="/contact" component={Contact} />        
+      </Switch>
+    </AnimatePresence>            
   );
 }
 

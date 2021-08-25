@@ -1,9 +1,7 @@
 ## Updating steps:
 (https://create-react-app.dev/docs/deployment/#github-pages)
-
 (https://stackoverflow.com/questions/58202104/how-to-modify-a-deployed-create-react-app-on-github-pages, 
-https://stackoverflow.com/questions/64839496/after-deploying-a-github-page-how-do-you-update-it-with-changes,
-https://stackoverflow.com/questions/66701078/deploying-and-updating-a-react-app-to-github-pages-correctly)
+https://stackoverflow.com/questions/64839496/after-deploying-a-github-page-how-do-you-update-it-with-changes)
 
 1. Open developer server with 'npm start'.
 2. Make changes, then gaa, gcm, gp.
