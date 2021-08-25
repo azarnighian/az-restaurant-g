@@ -64,7 +64,7 @@ button, a {
   justify-content: center;
   align-items: center;
   
-  background-image: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)),
+  background-image: linear-gradient(rgba(0,0,0,0.4),rgba(95,53,21,.9)),
                     url('/Users/azarnighian/Desktop/az-restaurant/src/components/Home/homeImages/pexels-anna-tis-6341164.jpg');
   background-position: center;
   background-repeat: no-repeat;
@@ -93,6 +93,17 @@ button, a {
   width: 85%;
   max-width: 45ch;
   line-height: 1.6;
+}
+.downArrow {
+  height: 30px;
+  width: 30px;
+  border-style: solid;
+  border-color: white;
+  border-width: 0px 2px 2px 0px;
+  transform: rotate(45deg);
+  transition: border-width 150ms ease-in-out;
+  position: absolute;
+  bottom: 40px;
 }
 
                               /* HomeAbout.js */
