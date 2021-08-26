@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/az-restaurant-g/static/css/main.5f0b41ff.chunk.css",
+    "main.css": "/az-restaurant-g/static/css/main.fbb8fefa.chunk.css",
     "main.js": "/az-restaurant-g/static/js/main.7b83190d.chunk.js",
     "main.js.map": "/az-restaurant-g/static/js/main.7b83190d.chunk.js.map",
     "runtime-main.js": "/az-restaurant-g/static/js/runtime-main.958a92e2.js",
@@ -10,7 +10,7 @@
     "static/js/3.023af1d8.chunk.js": "/az-restaurant-g/static/js/3.023af1d8.chunk.js",
     "static/js/3.023af1d8.chunk.js.map": "/az-restaurant-g/static/js/3.023af1d8.chunk.js.map",
     "index.html": "/az-restaurant-g/index.html",
-    "static/css/main.5f0b41ff.chunk.css.map": "/az-restaurant-g/static/css/main.5f0b41ff.chunk.css.map",
+    "static/css/main.fbb8fefa.chunk.css.map": "/az-restaurant-g/static/css/main.fbb8fefa.chunk.css.map",
     "static/js/2.aa619288.chunk.js.LICENSE.txt": "/az-restaurant-g/static/js/2.aa619288.chunk.js.LICENSE.txt",
     "static/media/ella-olsson-KPDbRyFOTnE-unsplash.95c63595.jpg": "/az-restaurant-g/static/media/ella-olsson-KPDbRyFOTnE-unsplash.95c63595.jpg",
     "static/media/namnso-ukpanah-5izEn-YcRbI-unsplash.03d9cd2d.jpg": "/az-restaurant-g/static/media/namnso-ukpanah-5izEn-YcRbI-unsplash.03d9cd2d.jpg",
@@ -31,7 +31,7 @@
   "entrypoints": [
     "static/js/runtime-main.958a92e2.js",
     "static/js/2.aa619288.chunk.js",
-    "static/css/main.5f0b41ff.chunk.css",
+    "static/css/main.fbb8fefa.chunk.css",
     "static/js/main.7b83190d.chunk.js"
   ]
 }
