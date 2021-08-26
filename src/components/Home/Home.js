@@ -5,6 +5,7 @@ import { motion } from "framer-motion"
 
 import NavBar from '/Users/azarnighian/Desktop/az-restaurant/src/components/NavBar.js'
 import HomeLanding from './HomeLanding'
+import HomeAnchorDiv from './HomeAnchorDiv'
 import HomeAbout from './HomeAbout'
 import HomeMenu from './HomeMenu'
 import HomeGallery from './HomeGallery'
@@ -14,11 +15,18 @@ import Footer from '/Users/azarnighian/Desktop/az-restaurant/src/components/Foot
 
 import { changeLandingNavBar } from '/Users/azarnighian/Desktop/az-restaurant/src/navBarStuff.js'
 
+import { scrollToSection } from '/Users/azarnighian/Desktop/az-restaurant/src/scrollToSection.js'
+import smoothscroll from 'smoothscroll-polyfill';
+  // https://stackoverflow.com/questions/56011205/is-there-a-safari-equivalent-for-scroll-behavior-smooth#comment106965329_56011281
+
 const Home = () => {    
   useEffect(() => {
     // https://reactjs.org/docs/hooks-effect.html
     document.querySelector('.navBar').className += " landingNav";
     document.querySelector('.wrapper').addEventListener('scroll', changeLandingNavBar);
+    
+    scrollToSection();
+    smoothscroll.polyfill();
     return () => {
       document.querySelector('.wrapper').removeEventListener('scroll', changeLandingNavBar);
     };
@@ -29,6 +37,7 @@ const Home = () => {
       <div className="wrapper">  
         <NavBar />
         <HomeLanding />
+        <HomeAnchorDiv />
         <HomeAbout />
         <HomeMenu />
         <HomeGallery />

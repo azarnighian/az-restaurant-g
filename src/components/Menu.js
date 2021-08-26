@@ -24,7 +24,7 @@ import image12 from './Images/namnso-ukpanah-5izEn-YcRbI-unsplash.jpg';
 const Menu = () => { 
   useEffect(() => {
     // https://reactjs.org/docs/hooks-effect.html
-    menuModals();    
+    menuModals();
   });
   
   return (

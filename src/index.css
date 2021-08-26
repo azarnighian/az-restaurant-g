@@ -55,7 +55,7 @@ button, a {
   right: 0;
   bottom: 0.5px;
   overflow-x: hidden;
-  overflow-y: auto; 
+  overflow-y: auto;   
 }                              
 
 .landingContainer {
@@ -104,6 +104,31 @@ button, a {
   transition: border-width 150ms ease-in-out;
   position: absolute;
   bottom: 40px;
+  cursor: pointer;
+  -webkit-tap-highlight-color: transparent;
+    /* to remove blue highlight on mobile */
+      /* https://stackoverflow.com/questions/45049873/how-to-remove-the-blue-highlight-of-button-on-mobile */
+      /* https://stackoverflow.com/questions/21003535/anyway-to-prevent-the-blue-highlighting-of-elements-in-chrome-when-clicking-quic */
+}
+.downArrow:hover {
+  border-width: 0px 4px 4px 0px;
+}
+/* https://ishadeed.com/article/clickable-area/ */
+.downArrow:after {
+  content: "";
+  position: absolute;
+  left: -15px;
+  top: -15px;
+  width: 60px;
+  height: 60px;
+  background: transparent;
+  transform: rotate(45deg);
+}
+
+                            /* HomeAnchorDiv.js */
+#aboveAboutSection {
+  position: relative; 
+  top: calc(-1 * var(--NavBarHeight));
 }
 
                               /* HomeAbout.js */
@@ -387,7 +412,9 @@ button, a {
   margin-right: 3rem;
   cursor: pointer;
   -webkit-tap-highlight-color: transparent;
-    /* https://stackoverflow.com/questions/45049873/how-to-remove-the-blue-highlight-of-button-on-mobile */
+    /* to remove blue highlight on mobile */
+      /* https://stackoverflow.com/questions/45049873/how-to-remove-the-blue-highlight-of-button-on-mobile */
+      /* https://stackoverflow.com/questions/21003535/anyway-to-prevent-the-blue-highlighting-of-elements-in-chrome-when-clicking-quic */
 }
 .menuItem h2:hover {
   color: var(--HoverBeige);
