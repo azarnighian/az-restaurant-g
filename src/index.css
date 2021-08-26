@@ -64,7 +64,7 @@ button, a {
   justify-content: center;
   align-items: center;
   
-  background-image: linear-gradient(rgba(0,0,0,0.4),rgba(95,53,21,0.8)),
+  background-image: linear-gradient(rgba(0,0,0,0.1),rgba(95,53,21,1)),
                     url('/Users/azarnighian/Desktop/az-restaurant/src/components/Home/homeImages/pexels-anna-tis-6341164.jpg');
   background-position: center;
   background-repeat: no-repeat;
