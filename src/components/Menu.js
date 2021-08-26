@@ -34,7 +34,7 @@ const Menu = () => {
         <div className="pagesContainer">                  
             <div className="headingContainer">
               <img src={headingImage} alt="heading"></img>
-              <h1>Our Menu</h1>
+              <h1>Menu</h1>
             </div>        
             
             <div className="menuContainer">
