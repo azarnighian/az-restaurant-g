@@ -110,8 +110,11 @@ button, a {
       /* https://stackoverflow.com/questions/45049873/how-to-remove-the-blue-highlight-of-button-on-mobile */
       /* https://stackoverflow.com/questions/21003535/anyway-to-prevent-the-blue-highlighting-of-elements-in-chrome-when-clicking-quic */
 }
-.downArrow:hover {
-  border-width: 0px 4px 4px 0px;
+/* https://stackoverflow.com/questions/23885255/how-to-remove-ignore-hover-css-style-on-touch-devices */
+@media (hover: hover) and (pointer: fine) {
+  .downArrow:hover {
+    border-width: 0px 4px 4px 0px;
+  }
 }
 /* https://ishadeed.com/article/clickable-area/ */
 .downArrow:after {
