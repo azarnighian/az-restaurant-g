@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/az-restaurant-g/static/css/main.20712497.chunk.css",
-    "main.js": "/az-restaurant-g/static/js/main.c00104af.chunk.js",
-    "main.js.map": "/az-restaurant-g/static/js/main.c00104af.chunk.js.map",
+    "main.js": "/az-restaurant-g/static/js/main.40fefbbc.chunk.js",
+    "main.js.map": "/az-restaurant-g/static/js/main.40fefbbc.chunk.js.map",
     "runtime-main.js": "/az-restaurant-g/static/js/runtime-main.79da3095.js",
     "runtime-main.js.map": "/az-restaurant-g/static/js/runtime-main.79da3095.js.map",
     "static/js/2.69898c95.chunk.js": "/az-restaurant-g/static/js/2.69898c95.chunk.js",
@@ -12,6 +12,7 @@
     "index.html": "/az-restaurant-g/index.html",
     "static/css/main.20712497.chunk.css.map": "/az-restaurant-g/static/css/main.20712497.chunk.css.map",
     "static/js/2.69898c95.chunk.js.LICENSE.txt": "/az-restaurant-g/static/js/2.69898c95.chunk.js.LICENSE.txt",
+    "static/media/ella-olsson-KPDbRyFOTnE-unsplash.95c63595.jpg": "/az-restaurant-g/static/media/ella-olsson-KPDbRyFOTnE-unsplash.95c63595.jpg",
     "static/media/namnso-ukpanah-5izEn-YcRbI-unsplash.03d9cd2d.jpg": "/az-restaurant-g/static/media/namnso-ukpanah-5izEn-YcRbI-unsplash.03d9cd2d.jpg",
     "static/media/index.css": "/az-restaurant-g/static/media/pexels-anna-tis-6341164.b3f277c3.jpg",
     "static/media/pexels-asad-photo-maldives-1449773.ea768e84.jpg": "/az-restaurant-g/static/media/pexels-asad-photo-maldives-1449773.ea768e84.jpg",
@@ -25,13 +26,12 @@
     "static/media/pexels-ruslan-khmelevsky-5392152.0fe4fc76.jpg": "/az-restaurant-g/static/media/pexels-ruslan-khmelevsky-5392152.0fe4fc76.jpg",
     "static/media/pexels-skitterphoto-3498.07958256.jpg": "/az-restaurant-g/static/media/pexels-skitterphoto-3498.07958256.jpg",
     "static/media/pexels-skitterphoto-9315.b3d2691a.jpg": "/az-restaurant-g/static/media/pexels-skitterphoto-9315.b3d2691a.jpg",
-    "static/media/pexels-tanya-gorelova-3933207.bb83aa74.jpg": "/az-restaurant-g/static/media/pexels-tanya-gorelova-3933207.bb83aa74.jpg",
     "static/media/pexels-tom-balabaud-1579715.2e93cd5d.jpg": "/az-restaurant-g/static/media/pexels-tom-balabaud-1579715.2e93cd5d.jpg"
   },
   "entrypoints": [
     "static/js/runtime-main.79da3095.js",
     "static/js/2.69898c95.chunk.js",
     "static/css/main.20712497.chunk.css",
-    "static/js/main.c00104af.chunk.js"
+    "static/js/main.40fefbbc.chunk.js"
   ]
 }
