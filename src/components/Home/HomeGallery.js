@@ -9,9 +9,9 @@ const HomeGallery = () => {
     <div className="container homeGalleryContainer">        
         <h1>Gallery</h1>
         <div className="homeGalleryImgsContainer">
-            <img src={image1} alt="Homepage Gallery 1"></img>
-            <img src={image2} alt="Homepage Gallery 2"></img>
-            <img src={image3} alt="Homepage Gallery 3"></img>
+          <img src={image1} alt="Homepage Gallery 1"></img>
+          <img src={image2} alt="Homepage Gallery 2"></img>
+          <img src={image3} alt="Homepage Gallery 3"></img>
         </div>        
         <Link to="/gallery" className="linkButton">GALLERY</Link>
     </div>

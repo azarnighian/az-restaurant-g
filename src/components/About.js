@@ -7,6 +7,9 @@ import NavBar from './NavBar'
 import headingImage from '/Users/azarnighian/Desktop/az-restaurant/src/components/Images/pexels-emre-can-acer-2079438.jpg';
 import Footer from './Footer'
 
+import ReactImageAppear from 'react-image-appear';
+  // https://github.com/ArunMichaelDsouza/react-image-appear
+
 const About = () => {  
   return (    
     <motion.div initial={{ opacity: 0 }} animate={{ opacity: 1 }} exit={{ opacity: 0 }} transition={{ duration: .5 }}>
@@ -14,7 +17,7 @@ const About = () => {
         <NavBar />
         <div className="pagesContainer">           
           <div className="headingContainer">
-            <img src={headingImage} alt="heading"></img>
+            <ReactImageAppear src={headingImage}/>
             <h1>About Us</h1>
           </div>        
           <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Laoreet suspendisse interdum consectetur libero id. Eu non diam phasellus vestibulum lorem. Posuere lorem ipsum dolor sit amet consectetur adipiscing elit duis. In massa tempor nec feugiat nisl pretium. Risus ultricies tristique nulla aliquet. Volutpat consequat mauris nunc congue nisi vitae suscipit tellus mauris. Sed nisi lacus sed viverra tellus. Porta non pulvinar neque laoreet suspendisse interdum consectetur. Mauris pellentesque pulvinar pellentesque habitant morbi tristique senectus et. Bibendum at varius vel pharetra vel turpis. Arcu bibendum at varius vel pharetra vel turpis.</p>

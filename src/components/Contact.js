@@ -7,6 +7,9 @@ import NavBar from './NavBar'
 import headingImage from '/Users/azarnighian/Desktop/az-restaurant/src/components/Images/namnso-ukpanah-5izEn-YcRbI-unsplash.jpg';
 import Footer from './Footer'
 
+import ReactImageAppear from 'react-image-appear';
+  // https://github.com/ArunMichaelDsouza/react-image-appear
+
 const Contact = () => {  
   return (
     <motion.div initial={{ opacity: 0 }} animate={{ opacity: 1 }} exit={{ opacity: 0 }} transition={{ duration: .5 }}>
@@ -14,7 +17,7 @@ const Contact = () => {
         <NavBar />
         <div className="pagesContainer">        
           <div className="headingContainer">
-            <img src={headingImage} alt="heading" class="positionedHeadingImg"></img>
+            <ReactImageAppear src={headingImage} className="positionedHeadingImg"/>
             <h1>Location, Contact & Hours</h1>
           </div>
 

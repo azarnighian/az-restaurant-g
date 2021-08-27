@@ -7,6 +7,9 @@ import NavBar from './NavBar'
 import headingImage from '/Users/azarnighian/Desktop/az-restaurant/src/components/Images/pexels-daria-shevtsova-704982.jpg';
 import Footer from './Footer'
 
+import ReactImageAppear from 'react-image-appear';
+  // https://github.com/ArunMichaelDsouza/react-image-appear
+
 import { menuModals } from '/Users/azarnighian/Desktop/az-restaurant/src/menuModals.js'
 import image1 from './Images/pexels-asad-photo-maldives-1449773.jpg';
 import image2 from './Images/pexels-daria-shevtsova-704982.jpg';
@@ -33,7 +36,7 @@ const Menu = () => {
         <NavBar />
         <div className="pagesContainer">                  
             <div className="headingContainer">
-              <img src={headingImage} alt="heading"></img>
+              <ReactImageAppear src={headingImage}/>
               <h1>Menu</h1>
             </div>        
             

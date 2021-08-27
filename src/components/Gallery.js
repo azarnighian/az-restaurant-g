@@ -7,6 +7,9 @@ import NavBar from './NavBar'
 
 import Footer from './Footer'
 
+import ReactImageAppear from 'react-image-appear';
+  // https://github.com/ArunMichaelDsouza/react-image-appear
+
 import headingImage from '/Users/azarnighian/Desktop/az-restaurant/src/components/Images/pexels-life-of-pix-67468.jpg';
 import image1 from './Images/pexels-asad-photo-maldives-1449773.jpg';
 import image2 from './Images/pexels-daria-shevtsova-704982.jpg';
@@ -50,47 +53,47 @@ const Gallery = () => {
       <div className="wrapper">
         <NavBar />
         <div className="pagesContainer">                  
-            <div className="headingContainer">
-              <img src={headingImage} alt="heading" class="positionedHeadingImg"></img>
+            <div className="headingContainer">              
+              <ReactImageAppear src={headingImage} className="positionedHeadingImg"/>
               <h1>Gallery</h1>
             </div>        
             <div className="galleryContainer">
               <SRLWrapper options={options}>
                 <div className="cell">
-                  <img src={image1} alt="Gallery 1"></img>
+                  <ReactImageAppear src={image1}/>
                 </div>
                 <div className="cell">
-                  <img src={image2} alt="Gallery 2"></img>
+                  <ReactImageAppear src={image2}/>
                 </div>
                 <div className="cell">
-                  <img src={image3} alt="Gallery 3"></img>
+                  <ReactImageAppear src={image3}/>
                 </div>
                 <div className="cell">
-                  <img src={image4} alt="Gallery 4"></img>
+                  <ReactImageAppear src={image4}/>
                 </div>
                 <div className="cell">
-                  <img src={image5} alt="Gallery 5"></img>
+                  <ReactImageAppear src={image5}/>
                 </div>
                 <div className="cell">
-                  <img src={image6} alt="Gallery 6"></img>
+                  <ReactImageAppear src={image6}/>
                 </div>
                 <div className="cell">
-                  <img src={image7} alt="Gallery 7"></img>
+                  <ReactImageAppear src={image7}/>
                 </div>
                 <div className="cell">
-                  <img src={image8} alt="Gallery 8"></img>
+                  <ReactImageAppear src={image8}/>
                 </div>
                 <div className="cell">
-                  <img src={image9} alt="Gallery 9"></img>
+                  <ReactImageAppear src={image9}/>
                 </div>
                 <div className="cell">
-                  <img src={image10} alt="Gallery 10"></img>
+                  <ReactImageAppear src={image10}/>
                 </div>
                 <div className="cell">
-                  <img src={image11} alt="Gallery 11"></img>
+                  <ReactImageAppear src={image11}/>
                 </div>
                 <div className="cell">
-                  <img src={image12} alt="Gallery 12"></img>
+                  <ReactImageAppear src={image12}/>
                 </div>
               </SRLWrapper>                        
             </div>      

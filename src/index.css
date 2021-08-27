@@ -204,7 +204,7 @@ button, a {
 }
 
 @media screen and (min-width: 700px) {
-  .splitContainer{
+  .splitContainer {
     flex-direction: row;
   }
   .splitContainer img {
