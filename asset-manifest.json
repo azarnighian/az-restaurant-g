@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/az-restaurant-g/static/css/main.fbb8fefa.chunk.css",
-    "main.js": "/az-restaurant-g/static/js/main.7b83190d.chunk.js",
-    "main.js.map": "/az-restaurant-g/static/js/main.7b83190d.chunk.js.map",
-    "runtime-main.js": "/az-restaurant-g/static/js/runtime-main.958a92e2.js",
-    "runtime-main.js.map": "/az-restaurant-g/static/js/runtime-main.958a92e2.js.map",
-    "static/js/2.aa619288.chunk.js": "/az-restaurant-g/static/js/2.aa619288.chunk.js",
-    "static/js/2.aa619288.chunk.js.map": "/az-restaurant-g/static/js/2.aa619288.chunk.js.map",
-    "static/js/3.023af1d8.chunk.js": "/az-restaurant-g/static/js/3.023af1d8.chunk.js",
-    "static/js/3.023af1d8.chunk.js.map": "/az-restaurant-g/static/js/3.023af1d8.chunk.js.map",
+    "main.css": "/az-restaurant-g/static/css/main.5a55dc07.chunk.css",
+    "main.js": "/az-restaurant-g/static/js/main.9f73b071.chunk.js",
+    "main.js.map": "/az-restaurant-g/static/js/main.9f73b071.chunk.js.map",
+    "runtime-main.js": "/az-restaurant-g/static/js/runtime-main.a081d899.js",
+    "runtime-main.js.map": "/az-restaurant-g/static/js/runtime-main.a081d899.js.map",
+    "static/js/2.9a12a970.chunk.js": "/az-restaurant-g/static/js/2.9a12a970.chunk.js",
+    "static/js/2.9a12a970.chunk.js.map": "/az-restaurant-g/static/js/2.9a12a970.chunk.js.map",
+    "static/js/3.20168366.chunk.js": "/az-restaurant-g/static/js/3.20168366.chunk.js",
+    "static/js/3.20168366.chunk.js.map": "/az-restaurant-g/static/js/3.20168366.chunk.js.map",
     "index.html": "/az-restaurant-g/index.html",
-    "static/css/main.fbb8fefa.chunk.css.map": "/az-restaurant-g/static/css/main.fbb8fefa.chunk.css.map",
-    "static/js/2.aa619288.chunk.js.LICENSE.txt": "/az-restaurant-g/static/js/2.aa619288.chunk.js.LICENSE.txt",
+    "static/css/main.5a55dc07.chunk.css.map": "/az-restaurant-g/static/css/main.5a55dc07.chunk.css.map",
+    "static/js/2.9a12a970.chunk.js.LICENSE.txt": "/az-restaurant-g/static/js/2.9a12a970.chunk.js.LICENSE.txt",
     "static/media/ella-olsson-KPDbRyFOTnE-unsplash.95c63595.jpg": "/az-restaurant-g/static/media/ella-olsson-KPDbRyFOTnE-unsplash.95c63595.jpg",
     "static/media/namnso-ukpanah-5izEn-YcRbI-unsplash.03d9cd2d.jpg": "/az-restaurant-g/static/media/namnso-ukpanah-5izEn-YcRbI-unsplash.03d9cd2d.jpg",
     "static/media/index.css": "/az-restaurant-g/static/media/pexels-anna-tis-6341164.b3f277c3.jpg",
@@ -29,9 +29,9 @@
     "static/media/pexels-tom-balabaud-1579715.2e93cd5d.jpg": "/az-restaurant-g/static/media/pexels-tom-balabaud-1579715.2e93cd5d.jpg"
   },
   "entrypoints": [
-    "static/js/runtime-main.958a92e2.js",
-    "static/js/2.aa619288.chunk.js",
-    "static/css/main.fbb8fefa.chunk.css",
-    "static/js/main.7b83190d.chunk.js"
+    "static/js/runtime-main.a081d899.js",
+    "static/js/2.9a12a970.chunk.js",
+    "static/css/main.5a55dc07.chunk.css",
+    "static/js/main.9f73b071.chunk.js"
   ]
 }
