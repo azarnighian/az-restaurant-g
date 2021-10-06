@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/az-restaurant-g/static/css/main.5a55dc07.chunk.css",
-    "main.js": "/az-restaurant-g/static/js/main.5b3471bf.chunk.js",
-    "main.js.map": "/az-restaurant-g/static/js/main.5b3471bf.chunk.js.map",
+    "main.js": "/az-restaurant-g/static/js/main.b7ad99cd.chunk.js",
+    "main.js.map": "/az-restaurant-g/static/js/main.b7ad99cd.chunk.js.map",
     "runtime-main.js": "/az-restaurant-g/static/js/runtime-main.a081d899.js",
     "runtime-main.js.map": "/az-restaurant-g/static/js/runtime-main.a081d899.js.map",
     "static/js/2.9a12a970.chunk.js": "/az-restaurant-g/static/js/2.9a12a970.chunk.js",
@@ -32,6 +32,6 @@
     "static/js/runtime-main.a081d899.js",
     "static/js/2.9a12a970.chunk.js",
     "static/css/main.5a55dc07.chunk.css",
-    "static/js/main.5b3471bf.chunk.js"
+    "static/js/main.b7ad99cd.chunk.js"
   ]
 }
