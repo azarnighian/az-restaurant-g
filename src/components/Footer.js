@@ -1,7 +1,7 @@
 const Footer = () => {
   return (
     <footer>
-      Made by <a href="https://github.com/azarnighian">Aharon Zarnighian</a>
+      Made by <a href="https://azarnighian.github.io/">Aharon Zarnighian</a>
     </footer>
   )
 }
