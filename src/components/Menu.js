@@ -34,13 +34,14 @@ const Menu = () => {
     <motion.div initial={{ opacity: 0 }} animate={{ opacity: 1 }} exit={{ opacity: 0 }} transition={{ duration: .5 }}>
       <div className="wrapper">      
         <NavBar />
-        <div className="pagesContainer">                  
+        <div className="pagesContainer">
             <div className="headingContainer">
               <ReactImageAppear src={headingImage}/>
               <h1>Menu</h1>
             </div>        
             
             <div className="menuContainer">
+              <p>Click on a food’s title to see a (placeholder) picture.</p>
               <h1>Appetizers</h1>
               <div className="menuItemsContainer">
                 <div className="menuItem">
