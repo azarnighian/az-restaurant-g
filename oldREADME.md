@@ -3,7 +3,7 @@
 (https://stackoverflow.com/questions/58202104/how-to-modify-a-deployed-create-react-app-on-github-pages, 
 https://stackoverflow.com/questions/64839496/after-deploying-a-github-page-how-do-you-update-it-with-changes)
 
-1. Open developer server with 'npm start'.
+1. Open developer server with 'npm start'. <!-- Can take a while -->
 2. Make changes, then gaa, gcm, gp.
 3. Run 'npm run deploy' to deploy to GitHub Pages.
 

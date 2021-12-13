@@ -19,7 +19,7 @@ const NavBar = () => {
             <div className="line3"></div>
         </div> 
 
-        <h1 className="logo">RESTAURANT</h1>        
+        <h1 className="logo"><NavLink exact to="/">RESTAURANT</NavLink></h1>        
 
         <ul className="navLinks">
             <li>

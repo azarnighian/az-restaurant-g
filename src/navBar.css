@@ -105,6 +105,10 @@
   color: var(--Beige);
   transition: color var(--transitionTime);
 }
+.logo a {
+  color: inherit;
+  text-decoration: none;
+}
 
 @media screen and (min-width: 768px){  
   .logo {
