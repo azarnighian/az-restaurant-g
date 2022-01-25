@@ -187,7 +187,9 @@ button, a {
   padding: 3em 2em;
   text-align: center;
 }
-
+.plusLineHeight {
+  line-height: 2;
+}
 .menuTextContainer .linkButton {
   border-color: white;
   color: white;
