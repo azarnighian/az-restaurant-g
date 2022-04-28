@@ -23,7 +23,7 @@
   background-color: var(--mobileNavBackgroundColor) !important;
   transition: background-color var(--transitionTime), border-style var(--transitionTime);
 }
-.burgerClicked .logo {
+.burgerClicked .logo a {
   color: var(--Beige) !important;
   transition: color var(--transitionTime);
 }
@@ -101,12 +101,9 @@
   transform: rotate(45deg) translate(-5px,-5px);
 }
 
-.logo {
+.logo a {
   color: var(--Beige);
   transition: color var(--transitionTime);
-}
-.logo a {
-  color: inherit;
   text-decoration: none;
 }
 
@@ -157,7 +154,7 @@
   background-color: transparent;
   border-style: none;
 }
-.landingNav .logo {
+.landingNav .logo a {
   color: white;
 }
 .landingNav .burger div {
@@ -178,7 +175,7 @@
   border: 3px solid var(--Beige);
   transition: background-color 0.2s, border 0.1s;
 }
-.landingNavScrolled .logo {
+.landingNavScrolled .logo a {
   color: var(--Beige);
   transition: color 0.2s;
 }
