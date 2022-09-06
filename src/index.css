@@ -221,50 +221,37 @@ button, a {
 
                             /* HomeGallery.js */
 .homeGalleryContainer {  
-  padding: 4em 2em; 
+  padding: 4rem 2rem; 
 }                            
 .homeGalleryImgsContainer {
-  display: flex;
-  flex-direction: column;
-  padding-top: 3em;
-  padding-bottom: 1em;
+  display: grid;
+  gap: 2rem;
+  padding-top: 3rem;
+  padding-bottom: 4rem;
 }
 .homeGalleryImgsContainer img {
-  width: 100%;
-  margin-bottom: 3em;
+  width: 100%;  
   object-fit: cover;
   border-radius: 5px;
 }
-
-@media screen and (min-width: 500px) {
-  .homeGalleryContainer {
-    padding: 5em;
-  }
-}
 @media screen and (min-width: 600px) {
-  .homeGalleryContainer {
-    padding: 7em;
-  }
-}
-@media screen and (min-width: 768px) {
-  .homeGalleryContainer {
-    padding: 4em 0;
-  }
   .homeGalleryImgsContainer {
-    flex-direction: row;
-    padding: 4em 2em;   
-    padding-left: 4em;
-      /* to balance out margin-right of each img */
-      /* (2em margin-right + 2em from 'padding: 4em 2em' )  */
-    justify-content: center;
-    align-items: initial; 
-  }
-  .homeGalleryImgsContainer img {
-    width: 30%;
-    margin-bottom: 0;
-    margin-right: 2em;
-      /* match with padding left of homeGalleryImgsContainer */
+    padding-right: 3rem;    
+    padding-left: 3rem;
+  }  
+}
+@media screen and (min-width: 768px) {  
+  .homeGalleryImgsContainer {    
+    grid-template-columns: repeat(3, 1fr);
+    padding-right: 1rem;    
+    padding-left: 1rem;           
   }    
+}
+@media screen and (min-width: 1000px) {
+  .homeGalleryImgsContainer {
+    padding-right: 3rem;    
+    padding-left: 3rem;
+  }  
 }
 
                               /* HomeInfo.js */                           
