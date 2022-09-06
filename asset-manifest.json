@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/az-restaurant-g/static/css/main.905652c2.chunk.css",
-    "main.js": "/az-restaurant-g/static/js/main.dd993a69.chunk.js",
-    "main.js.map": "/az-restaurant-g/static/js/main.dd993a69.chunk.js.map",
+    "main.css": "/az-restaurant-g/static/css/main.609163cf.chunk.css",
+    "main.js": "/az-restaurant-g/static/js/main.7a390f09.chunk.js",
+    "main.js.map": "/az-restaurant-g/static/js/main.7a390f09.chunk.js.map",
     "runtime-main.js": "/az-restaurant-g/static/js/runtime-main.a081d899.js",
     "runtime-main.js.map": "/az-restaurant-g/static/js/runtime-main.a081d899.js.map",
-    "static/js/2.9a12a970.chunk.js": "/az-restaurant-g/static/js/2.9a12a970.chunk.js",
-    "static/js/2.9a12a970.chunk.js.map": "/az-restaurant-g/static/js/2.9a12a970.chunk.js.map",
+    "static/js/2.152d3829.chunk.js": "/az-restaurant-g/static/js/2.152d3829.chunk.js",
+    "static/js/2.152d3829.chunk.js.map": "/az-restaurant-g/static/js/2.152d3829.chunk.js.map",
     "static/js/3.20168366.chunk.js": "/az-restaurant-g/static/js/3.20168366.chunk.js",
     "static/js/3.20168366.chunk.js.map": "/az-restaurant-g/static/js/3.20168366.chunk.js.map",
     "index.html": "/az-restaurant-g/index.html",
-    "static/css/main.905652c2.chunk.css.map": "/az-restaurant-g/static/css/main.905652c2.chunk.css.map",
-    "static/js/2.9a12a970.chunk.js.LICENSE.txt": "/az-restaurant-g/static/js/2.9a12a970.chunk.js.LICENSE.txt",
+    "static/css/main.609163cf.chunk.css.map": "/az-restaurant-g/static/css/main.609163cf.chunk.css.map",
+    "static/js/2.152d3829.chunk.js.LICENSE.txt": "/az-restaurant-g/static/js/2.152d3829.chunk.js.LICENSE.txt",
     "static/media/ella-olsson-KPDbRyFOTnE-unsplash.95c63595.jpg": "/az-restaurant-g/static/media/ella-olsson-KPDbRyFOTnE-unsplash.95c63595.jpg",
     "static/media/namnso-ukpanah-5izEn-YcRbI-unsplash.03d9cd2d.jpg": "/az-restaurant-g/static/media/namnso-ukpanah-5izEn-YcRbI-unsplash.03d9cd2d.jpg",
     "static/media/index.css": "/az-restaurant-g/static/media/pexels-anna-tis-6341164.b3f277c3.jpg",
@@ -30,8 +30,8 @@
   },
   "entrypoints": [
     "static/js/runtime-main.a081d899.js",
-    "static/js/2.9a12a970.chunk.js",
-    "static/css/main.905652c2.chunk.css",
-    "static/js/main.dd993a69.chunk.js"
+    "static/js/2.152d3829.chunk.js",
+    "static/css/main.609163cf.chunk.css",
+    "static/js/main.7a390f09.chunk.js"
   ]
 }
