@@ -58,43 +58,19 @@ const Gallery = () => {
               <h1>Gallery</h1>
             </div>        
             <div className="galleryContainer">
-              <SRLWrapper options={options}>
-                <div className="cell">
-                  <ReactImageAppear src={image1}/>
-                </div>
-                <div className="cell">
-                  <ReactImageAppear src={image2}/>
-                </div>
-                <div className="cell">
-                  <ReactImageAppear src={image3}/>
-                </div>
-                <div className="cell">
-                  <ReactImageAppear src={image4}/>
-                </div>
-                <div className="cell">
-                  <ReactImageAppear src={image5}/>
-                </div>
-                <div className="cell">
-                  <ReactImageAppear src={image6}/>
-                </div>
-                <div className="cell">
-                  <ReactImageAppear src={image7}/>
-                </div>
-                <div className="cell">
-                  <ReactImageAppear src={image8}/>
-                </div>
-                <div className="cell">
-                  <ReactImageAppear src={image9}/>
-                </div>
-                <div className="cell">
-                  <ReactImageAppear src={image10}/>
-                </div>
-                <div className="cell">
-                  <ReactImageAppear src={image11}/>
-                </div>
-                <div className="cell">
-                  <ReactImageAppear src={image12}/>
-                </div>
+              <SRLWrapper options={options}>                
+                  <ReactImageAppear src={image1}/>                                
+                  <ReactImageAppear src={image2}/>                                
+                  <ReactImageAppear src={image3}/>                                
+                  <ReactImageAppear src={image4}/>                                
+                  <ReactImageAppear src={image5}/>                                
+                  <ReactImageAppear src={image6}/>                                
+                  <ReactImageAppear src={image7}/>                                
+                  <ReactImageAppear src={image8}/>                                
+                  <ReactImageAppear src={image9}/>                                
+                  <ReactImageAppear src={image10}/>                                
+                  <ReactImageAppear src={image11}/>                                
+                  <ReactImageAppear src={image12}/>                
               </SRLWrapper>                        
             </div>      
         </div>
